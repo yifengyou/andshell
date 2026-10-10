@@ -101,16 +101,14 @@ val prepareOssMoshArtifacts = tasks.register<PrepareOssMoshArtifacts>("prepareOs
 
 appVersioning {
     tagFilter.set("v[0-9].*")
-    overrideVersionCode { gitTag, _, _ ->
-        val semVer = gitTag.toSemVer()
-        semVer.major * 10000000 + semVer.minor * 100000 + semVer.patch * 1000 + gitTag.commitsSinceLatestTag
+    overrideVersionCode { _, _, _ ->
+        val now = java.time.LocalDateTime.now()
+        now.year * 10000000 + now.monthValue * 100000 + now.dayOfMonth * 1000 +
+            now.hour * 10 + now.minute / 6
     }
-    overrideVersionName { gitTag, _, _ ->
-        if (gitTag.commitsSinceLatestTag != 0) {
-            "git-${gitTag.rawTagName}-${gitTag.commitsSinceLatestTag}-g${gitTag.commitHash}"
-        } else {
-            gitTag.rawTagName
-        }
+    overrideVersionName { _, _, _ ->
+        val now = java.time.LocalDateTime.now()
+        "v%04d%02d%02d%02d%02d".format(now.year, now.monthValue, now.dayOfMonth, now.hour, now.minute)
     }
 }
 

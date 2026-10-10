@@ -408,7 +408,7 @@
 	<string name="list_pubkeyids_any">"Use any unlocked key"</string>
 
 	<!-- Host nickname field preference title -->
-	<string name="hostpref_nickname_title">"Nickname"</string>
+	<string name="hostpref_nickname_title">"Session Name"</string>
 
 	<!-- Host color category preference title -->
 	<string name="hostpref_color_title">"Color category"</string>
@@ -1377,15 +1377,15 @@
 	<!-- Label for the official website link in the Help screen. -->
 	<string name="help_website">Website</string>
 	<!-- URL for the official AndShell website. -->
-	<string name="help_website_url" translatable="false">https://andshell.org/</string>
+	<string name="help_website_url" translatable="false">https://github.com/yifengyou/andshell</string>
 	<!-- Label for the GitHub repository link in the Help screen. -->
 	<string name="help_github">Source Code</string>
 	<!-- URL for the AndShell GitHub repository. -->
-	<string name="help_github_url" translatable="false">https://github.com/andshell/andshell</string>
+	<string name="help_github_url" translatable="false">https://github.com/yifengyou/andshell</string>
 	<!-- Label for the bug report/issue tracker link in the Help screen. -->
 	<string name="help_report_bug">Report a Bug</string>
 	<!-- URL for the AndShell issue tracker. -->
-	<string name="help_report_bug_url" translatable="false">https://andshell.org/bug</string>
+	<string name="help_report_bug_url" translatable="false">https://github.com/yifengyou/andshell/issues</string>
 	<!-- Section title for the "Help" screen showing donation options. -->
 	<string name="help_section_donate">Support Development</string>
 	<!-- Label for the GitHub Sponsors donation link in the Help screen. -->

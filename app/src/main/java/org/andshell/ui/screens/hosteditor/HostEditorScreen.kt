@@ -166,6 +166,7 @@ fun HostEditorScreenContent(
     var showProtocolMenu by remember { mutableStateOf(false) }
     var showAdvancedOptions by rememberSaveable(hostId) { mutableStateOf(false) }
     val protocols = listOf("ssh", "telnet", "local")
+    val protocolLabels = mapOf("ssh" to "SSH", "telnet" to "Telnet", "local" to "Local")
     val canSave = (uiState.protocol == "local" || uiState.hostname.isNotBlank())
 
     EditorScaffold(
@@ -232,7 +233,7 @@ fun HostEditorScreenContent(
                 ) {
                     protocols.forEach { protocol ->
                         DropdownMenuItem(
-                            text = { Text(protocol) },
+                            text = { Text(protocolLabels[protocol] ?: protocol) },
                             onClick = {
                                 onProtocolChange(protocol)
                                 showProtocolMenu = false

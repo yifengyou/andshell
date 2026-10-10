@@ -58,7 +58,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
@@ -175,7 +174,6 @@ fun HelpScreen(
             }
 
             item {
-                val uriHandler = LocalUriHandler.current
                 Text(
                     text = stringResource(R.string.help_section_about),
                     style = MaterialTheme.typography.titleMedium,
@@ -192,16 +190,6 @@ fun HelpScreen(
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(bottom = 16.dp),
                 )
-                Button(
-                    onClick = {
-                        uriHandler.openUri("https://github.com/andshell/mosh4android/releases/latest")
-                    },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 8.dp),
-                ) {
-                    Text(stringResource(R.string.pref_mosh_release_title))
-                }
             }
         }
     }
