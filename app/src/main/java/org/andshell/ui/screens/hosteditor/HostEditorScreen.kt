@@ -81,7 +81,6 @@ import org.andshell.ui.common.getIconColors
 import org.andshell.ui.common.getLocalizedColorSchemeDescription
 import org.andshell.ui.common.getLocalizedFontDisplayName
 import org.andshell.ui.components.EditorScaffold
-import org.andshell.ui.components.MoshInstallProgressDialog
 import org.andshell.ui.theme.AndShellTheme
 import org.andshell.util.HostConstants
 import org.andshell.util.LocalFontProvider
@@ -107,7 +106,6 @@ fun HostEditorScreen(
         onNicknameChange = viewModel::updateNickname,
         onNicknameFocusChange = viewModel::onNicknameFocusChanged,
         onProtocolChange = viewModel::updateProtocol,
-        onCancelMoshInstall = viewModel::cancelMoshInstall,
         onUsernameChange = viewModel::updateUsername,
         onHostnameChange = viewModel::updateHostname,
         onPortChange = viewModel::updatePort,
@@ -125,10 +123,6 @@ fun HostEditorScreen(
         onIpVersionChange = viewModel::updateIpVersion,
         onPasswordChange = viewModel::updatePassword,
         onClearPassword = viewModel::clearSavedPassword,
-        onMoshPortChange = viewModel::updateMoshPort,
-        onMoshNetworkTimeoutChange = viewModel::updateMoshNetworkTimeout,
-        onMoshServerChange = viewModel::updateMoshServer,
-        onLocaleChange = viewModel::updateLocale,
         onSaveHost = viewModel::saveHost,
         modifier = modifier,
     )
@@ -162,11 +156,6 @@ fun HostEditorScreenContent(
     onClearPassword: () -> Unit,
     onSaveHost: suspend () -> Boolean,
     modifier: Modifier = Modifier,
-    onCancelMoshInstall: () -> Unit = {},
-    onMoshPortChange: (String) -> Unit = {},
-    onMoshNetworkTimeoutChange: (String) -> Unit = {},
-    onMoshServerChange: (String) -> Unit = {},
-    onLocaleChange: (String) -> Unit = {},
     onNavigateToKnownHosts: (Long) -> Unit = {},
 ) {
     val coroutineScope = rememberCoroutineScope()
@@ -176,9 +165,8 @@ fun HostEditorScreenContent(
     }
     var showProtocolMenu by remember { mutableStateOf(false) }
     var showAdvancedOptions by rememberSaveable(hostId) { mutableStateOf(false) }
-    val protocols = listOf("ssh", "mosh", "telnet", "local")
-    val canSave = (uiState.protocol == "local" || uiState.hostname.isNotBlank()) &&
-        (uiState.protocol != "mosh" || uiState.isMoshNetworkTimeoutValid)
+    val protocols = listOf("ssh", "telnet", "local")
+    val canSave = (uiState.protocol == "local" || uiState.hostname.isNotBlank())
 
     EditorScaffold(
         title = stringResource(if (hostId == -1L) R.string.hostpref_add_host else R.string.hostpref_setting_title),
@@ -257,8 +245,8 @@ fun HostEditorScreenContent(
 
             // Only show username, hostname, and port for non-local protocols
             if (uiState.protocol != "local") {
-                // Show username field for SSH and Mosh protocols
-                if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
+                // Show username field for SSH protocol
+                if (uiState.protocol == "ssh") {
                     OutlinedTextField(
                         value = uiState.username,
                         onValueChange = onUsernameChange,
@@ -291,8 +279,8 @@ fun HostEditorScreenContent(
                     singleLine = true,
                 )
 
-                // Save password section (SSH and Mosh) — shown directly below port
-                if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
+                // Save password section (SSH) — shown directly below port
+                if (uiState.protocol == "ssh") {
                     OutlinedTextField(
                         value = uiState.password,
                         onValueChange = onPasswordChange,
@@ -358,66 +346,8 @@ fun HostEditorScreenContent(
                         modifier = Modifier.padding(top = 8.dp),
                     )
 
-                    // Mosh-specific fields
-                    if (uiState.protocol == "mosh") {
-                        OutlinedTextField(
-                            value = uiState.moshServer,
-                            onValueChange = onMoshServerChange,
-                            label = { Text(stringResource(R.string.hostpref_mosh_server_title)) },
-                            supportingText = { Text(stringResource(R.string.hostpref_mosh_server_summary)) },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(top = 8.dp),
-                            singleLine = true,
-                        )
-
-                        OutlinedTextField(
-                            value = uiState.moshPort,
-                            onValueChange = onMoshPortChange,
-                            label = { Text(stringResource(R.string.hostpref_mosh_port_title)) },
-                            supportingText = { Text(stringResource(R.string.hostpref_mosh_port_summary)) },
-                            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(top = 8.dp),
-                            singleLine = true,
-                        )
-
-                        OutlinedTextField(
-                            value = uiState.moshNetworkTimeout,
-                            onValueChange = onMoshNetworkTimeoutChange,
-                            label = { Text(stringResource(R.string.hostpref_mosh_network_timeout_title)) },
-                            isError = !uiState.isMoshNetworkTimeoutValid,
-                            supportingText = {
-                                Text(
-                                    stringResource(
-                                        if (uiState.isMoshNetworkTimeoutValid) {
-                                            R.string.hostpref_mosh_network_timeout_summary
-                                        } else {
-                                            R.string.hostpref_mosh_network_timeout_error
-                                        },
-                                    ),
-                                )
-                            },
-                            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-                            modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
-                            singleLine = true,
-                        )
-
-                        OutlinedTextField(
-                            value = uiState.locale,
-                            onValueChange = onLocaleChange,
-                            label = { Text(stringResource(R.string.hostpref_locale_title)) },
-                            supportingText = { Text(stringResource(R.string.hostpref_locale_summary)) },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(top = 8.dp),
-                            singleLine = true,
-                        )
-                    }
-
-                    // Known hosts (SSH and Mosh, existing host only)
-                    if ((uiState.protocol == "ssh" || uiState.protocol == "mosh") && hostId != -1L) {
+                    // Known hosts (SSH, existing host only)
+                    if (uiState.protocol == "ssh" && hostId != -1L) {
                         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
                         Row(
                             modifier = Modifier
@@ -466,8 +396,8 @@ fun HostEditorScreenContent(
                         onEditProfile = onNavigateToProfile,
                     )
 
-                    // Jump host selector (for SSH and Mosh protocols)
-                    if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
+                    // Jump host selector (for SSH protocol)
+                    if (uiState.protocol == "ssh") {
                         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
                         JumpHostSelector(
                             jumpHostId = uiState.jumpHostId,
@@ -564,12 +494,6 @@ fun HostEditorScreenContent(
                 }
             }
         }
-    }
-
-    if (uiState.isMoshInstalling) {
-        MoshInstallProgressDialog(
-            onDismissRequest = onCancelMoshInstall,
-        )
     }
 }
 
