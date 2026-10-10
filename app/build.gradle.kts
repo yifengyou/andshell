@@ -8,6 +8,8 @@ import org.gradle.api.tasks.TaskAction
 import org.gradle.api.tasks.testing.Test
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import java.net.URI
+import java.text.SimpleDateFormat
+import java.util.Date
 import java.util.zip.ZipInputStream
 
 abstract class PrepareOssMoshArtifacts : DefaultTask() {
@@ -102,13 +104,11 @@ val prepareOssMoshArtifacts = tasks.register<PrepareOssMoshArtifacts>("prepareOs
 appVersioning {
     tagFilter.set("v[0-9].*")
     overrideVersionCode { _, _, _ ->
-        val now = java.time.LocalDateTime.now()
-        now.year * 10000000 + now.monthValue * 100000 + now.dayOfMonth * 1000 +
-            now.hour * 10 + now.minute / 6
+        val ts = SimpleDateFormat("yyMMddHH").format(Date())
+        ts.toInt()
     }
     overrideVersionName { _, _, _ ->
-        val now = java.time.LocalDateTime.now()
-        "v%04d%02d%02d%02d%02d".format(now.year, now.monthValue, now.dayOfMonth, now.hour, now.minute)
+        "v" + SimpleDateFormat("yyyyMMddHHmm").format(Date())
     }
 }
 
