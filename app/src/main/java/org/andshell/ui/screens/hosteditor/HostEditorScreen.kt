@@ -291,6 +291,41 @@ fun HostEditorScreenContent(
                     singleLine = true,
                 )
 
+                // Save password section (SSH and Mosh) — shown directly below port
+                if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
+                    OutlinedTextField(
+                        value = uiState.password,
+                        onValueChange = onPasswordChange,
+                        label = {
+                            Text(
+                                if (uiState.hasExistingPassword && uiState.password.isEmpty()) {
+                                    stringResource(R.string.hostpref_password_unchanged)
+                                } else {
+                                    stringResource(R.string.hostpref_password_title)
+                                },
+                            )
+                        },
+                        supportingText = {
+                            Text(stringResource(R.string.hostpref_save_password_summary))
+                        },
+                        visualTransformation = PasswordVisualTransformation(),
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 8.dp),
+                        singleLine = true,
+                    )
+
+                    if (uiState.hasExistingPassword) {
+                        TextButton(
+                            onClick = onClearPassword,
+                            modifier = Modifier.padding(top = 4.dp),
+                        ) {
+                            Text(stringResource(R.string.hostpref_clear_password))
+                        }
+                    }
+                }
+
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -381,184 +416,151 @@ fun HostEditorScreenContent(
                         )
                     }
 
-                    // Save password section (SSH and Mosh)
-                    if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
-                        OutlinedTextField(
-                            value = uiState.password,
-                            onValueChange = onPasswordChange,
-                            label = {
-                                Text(
-                                    if (uiState.hasExistingPassword && uiState.password.isEmpty()) {
-                                        stringResource(R.string.hostpref_password_unchanged)
-                                    } else {
-                                        stringResource(R.string.hostpref_password_title)
-                                    },
-                                )
-                            },
-                            supportingText = {
-                                Text(stringResource(R.string.hostpref_save_password_summary))
-                            },
-                            visualTransformation = PasswordVisualTransformation(),
-                            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                    // Known hosts (SSH and Mosh, existing host only)
+                    if ((uiState.protocol == "ssh" || uiState.protocol == "mosh") && hostId != -1L) {
+                        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                        Row(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(top = 8.dp),
-                            singleLine = true,
-                        )
-
-                        if (uiState.hasExistingPassword) {
-                            TextButton(
-                                onClick = onClearPassword,
-                                modifier = Modifier.padding(top = 4.dp),
-                            ) {
-                                Text(stringResource(R.string.hostpref_clear_password))
+                                .clickable { onNavigateToKnownHosts(hostId) }
+                                .padding(vertical = 8.dp)
+                                .testTag("known_host_keys_preference"),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = stringResource(R.string.hostpref_known_hosts_title),
+                                    style = MaterialTheme.typography.bodyLarge,
+                                )
+                                Text(
+                                    text = stringResource(R.string.hostpref_known_hosts_summary),
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
                             }
-                        }
-
-                        if (hostId != -1L) {
-                            Row(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .clickable { onNavigateToKnownHosts(hostId) }
-                                    .padding(vertical = 8.dp)
-                                    .testTag("known_host_keys_preference"),
-                                verticalAlignment = Alignment.CenterVertically,
-                            ) {
-                                Column(modifier = Modifier.weight(1f)) {
-                                    Text(
-                                        text = stringResource(R.string.hostpref_known_hosts_title),
-                                        style = MaterialTheme.typography.bodyLarge,
-                                    )
-                                    Text(
-                                        text = stringResource(R.string.hostpref_known_hosts_summary),
-                                        style = MaterialTheme.typography.bodyMedium,
-                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                    )
-                                }
-                                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
-                            }
+                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
                         }
                     }
-                }
-            }
 
-            // Color selector
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            ColorSelector(
-                selectedColor = uiState.color,
-                onColorSelect = onColorChange,
-            )
+                    // Color selector
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    ColorSelector(
+                        selectedColor = uiState.color,
+                        onColorSelect = onColorChange,
+                    )
 
-            // Pubkey selector
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            PubkeySelector(
-                pubkeyId = uiState.pubkeyId,
-                availablePubkeys = uiState.availablePubkeys,
-                onPubkeySelect = onPubkeyChange,
-            )
+                    // Pubkey selector
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    PubkeySelector(
+                        pubkeyId = uiState.pubkeyId,
+                        availablePubkeys = uiState.availablePubkeys,
+                        onPubkeySelect = onPubkeyChange,
+                    )
 
-            // Profile selector
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            ProfileSelector(
-                profileId = uiState.profileId,
-                availableProfiles = uiState.availableProfiles,
-                onProfileSelect = onProfileChange,
-                onEditProfile = onNavigateToProfile,
-            )
+                    // Profile selector
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    ProfileSelector(
+                        profileId = uiState.profileId,
+                        availableProfiles = uiState.availableProfiles,
+                        onProfileSelect = onProfileChange,
+                        onEditProfile = onNavigateToProfile,
+                    )
 
-            // Jump host selector (for SSH and Mosh protocols)
-            if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
-                HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-                JumpHostSelector(
-                    jumpHostId = uiState.jumpHostId,
-                    availableJumpHosts = uiState.availableJumpHosts,
-                    onJumpHostSelect = onJumpHostChange,
-                )
-            }
+                    // Jump host selector (for SSH and Mosh protocols)
+                    if (uiState.protocol == "ssh" || uiState.protocol == "mosh") {
+                        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                        JumpHostSelector(
+                            jumpHostId = uiState.jumpHostId,
+                            availableJumpHosts = uiState.availableJumpHosts,
+                            onJumpHostSelect = onJumpHostChange,
+                        )
+                    }
 
-            // SSH Auth agent
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            SwitchPreference(
-                title = stringResource(R.string.hostpref_authagent_title),
-                checked = uiState.useAuthAgent != "no",
-                onCheckedChange = { checked ->
-                    onUseAuthAgentChange(if (checked) "yes" else "no")
-                },
-            )
+                    // SSH Auth agent
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    SwitchPreference(
+                        title = stringResource(R.string.hostpref_authagent_title),
+                        checked = uiState.useAuthAgent != "no",
+                        onCheckedChange = { checked ->
+                            onUseAuthAgentChange(if (checked) "yes" else "no")
+                        },
+                    )
 
-            if (uiState.useAuthAgent != "no") {
-                SwitchPreference(
-                    title = stringResource(R.string.hostpref_authagent_with_confirmation),
-                    checked = uiState.useAuthAgent == "confirm",
-                    onCheckedChange = { checked ->
-                        onUseAuthAgentChange(if (checked) "confirm" else "yes")
-                    },
-                )
-            }
-
-            // Compression
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            SwitchPreference(
-                title = stringResource(R.string.hostpref_compression_title),
-                summary = stringResource(R.string.hostpref_compression_summary),
-                checked = uiState.compression,
-                onCheckedChange = onCompressionChange,
-            )
-
-            // Want session
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            SwitchPreference(
-                title = stringResource(R.string.hostpref_wantsession_title),
-                summary = stringResource(R.string.hostpref_wantsession_summary),
-                checked = uiState.wantSession,
-                onCheckedChange = onWantSessionChange,
-            )
-
-            // Stay connected
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            SwitchPreference(
-                title = stringResource(R.string.hostpref_stayconnected_title),
-                summary = stringResource(R.string.hostpref_stayconnected_summary),
-                checked = uiState.stayConnected,
-                onCheckedChange = onStayConnectedChange,
-            )
-
-            // Quick disconnect
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            SwitchPreference(
-                title = stringResource(R.string.hostpref_quickdisconnect_title),
-                summary = stringResource(R.string.hostpref_quickdisconnect_summary),
-                checked = uiState.quickDisconnect,
-                onCheckedChange = onQuickDisconnectChange,
-            )
-
-            // Post-login automation
-            HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
-            Surface(
-                onClick = onEditAutomation,
-                enabled = hostId != -1L,
-                modifier = Modifier.fillMaxWidth(),
-                shape = MaterialTheme.shapes.small,
-                color = MaterialTheme.colorScheme.surface,
-                contentColor = if (hostId == -1L) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface,
-            ) {
-                Row(
-                    modifier = Modifier.padding(vertical = 8.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Column(modifier = Modifier.weight(1f)) {
-                        Text(stringResource(R.string.hostpref_postlogin_title), style = MaterialTheme.typography.bodyLarge)
-                        Text(
-                            if (hostId == -1L) {
-                                stringResource(R.string.automation_save_host)
-                            } else {
-                                pluralStringResource(R.plurals.automation_count, uiState.automationCount, uiState.automationCount)
+                    if (uiState.useAuthAgent != "no") {
+                        SwitchPreference(
+                            title = stringResource(R.string.hostpref_authagent_with_confirmation),
+                            checked = uiState.useAuthAgent == "confirm",
+                            onCheckedChange = { checked ->
+                                onUseAuthAgentChange(if (checked) "confirm" else "yes")
                             },
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
                     }
-                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
+
+                    // Compression
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    SwitchPreference(
+                        title = stringResource(R.string.hostpref_compression_title),
+                        summary = stringResource(R.string.hostpref_compression_summary),
+                        checked = uiState.compression,
+                        onCheckedChange = onCompressionChange,
+                    )
+
+                    // Want session
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    SwitchPreference(
+                        title = stringResource(R.string.hostpref_wantsession_title),
+                        summary = stringResource(R.string.hostpref_wantsession_summary),
+                        checked = uiState.wantSession,
+                        onCheckedChange = onWantSessionChange,
+                    )
+
+                    // Stay connected
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    SwitchPreference(
+                        title = stringResource(R.string.hostpref_stayconnected_title),
+                        summary = stringResource(R.string.hostpref_stayconnected_summary),
+                        checked = uiState.stayConnected,
+                        onCheckedChange = onStayConnectedChange,
+                    )
+
+                    // Quick disconnect
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    SwitchPreference(
+                        title = stringResource(R.string.hostpref_quickdisconnect_title),
+                        summary = stringResource(R.string.hostpref_quickdisconnect_summary),
+                        checked = uiState.quickDisconnect,
+                        onCheckedChange = onQuickDisconnectChange,
+                    )
+
+                    // Post-login automation
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+                    Surface(
+                        onClick = onEditAutomation,
+                        enabled = hostId != -1L,
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = MaterialTheme.shapes.small,
+                        color = MaterialTheme.colorScheme.surface,
+                        contentColor = if (hostId == -1L) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface,
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(vertical = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(stringResource(R.string.hostpref_postlogin_title), style = MaterialTheme.typography.bodyLarge)
+                                Text(
+                                    if (hostId == -1L) {
+                                        stringResource(R.string.automation_save_host)
+                                    } else {
+                                        pluralStringResource(R.plurals.automation_count, uiState.automationCount, uiState.automationCount)
+                                    },
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
+                            }
+                            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
+                        }
+                    }
                 }
             }
         }
