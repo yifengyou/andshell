@@ -17,6 +17,11 @@
 
 package org.andshell.ui.screens.hostlist
 
+import android.content.ComponentName
+import android.content.Intent
+import android.content.ServiceConnection
+import android.content.SharedPreferences
+import android.os.IBinder
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -67,6 +72,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -95,6 +101,7 @@ import org.andshell.data.JsonImportTooLargeException
 import org.andshell.data.entity.Host
 import org.andshell.data.entity.Pubkey
 import org.andshell.service.DisconnectReason
+import org.andshell.service.SshdService
 import org.andshell.service.descriptionResource
 import org.andshell.ui.LocalTerminalManager
 import org.andshell.ui.PreviewScreen
@@ -128,6 +135,35 @@ fun HostListScreen(
     val context = LocalContext.current
     val resources = LocalResources.current
     val terminalManager = LocalTerminalManager.current
+
+    val sshdConnection = remember {
+        object : ServiceConnection {
+            override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
+                val binder = service as? SshdService.SshdBinder
+                viewModel.setSshdService(binder?.getService())
+            }
+
+            override fun onServiceDisconnected(name: ComponentName?) {
+                viewModel.setSshdService(null)
+            }
+        }
+    }
+
+    DisposableEffect(Unit) {
+        onDispose {
+            try {
+                context.unbindService(sshdConnection)
+            } catch (_: Exception) {}
+        }
+    }
+
+    LaunchedEffect(Unit) {
+        context.bindService(
+            Intent(context, SshdService::class.java),
+            sshdConnection,
+            0,
+        )
+    }
 
     LaunchedEffect(terminalManager) {
         terminalManager?.let { viewModel.setTerminalManager(it) }
@@ -270,8 +306,8 @@ fun HostListScreen(
         onDisconnectHost = viewModel::disconnectHost,
         onDisconnectAll = viewModel::disconnectAll,
         onExportHosts = viewModel::exportHosts,
-        // Some document providers label JSON exports as text/plain or application/octet-stream.
         onImportHosts = { importLauncher.launch(arrayOf("*/*")) },
+        onToggleSshd = viewModel::toggleSshd,
         modifier = modifier,
     )
 }
@@ -298,6 +334,7 @@ fun HostListScreenContent(
     onSelectShortcut: (Host) -> Unit = {},
     onExportHosts: () -> Unit = {},
     onImportHosts: () -> Unit = {},
+    onToggleSshd: () -> Unit = {},
 ) {
     var showMenu by remember { mutableStateOf(false) }
     var showDisconnectAllDialog by remember { mutableStateOf(false) }
@@ -384,6 +421,23 @@ fun HostListScreenContent(
                                 onClick = {
                                     showMenu = false
                                     showDisconnectAllDialog = true
+                                },
+                            )
+                            DropdownMenuItem(
+                                text = {
+                                    Text(
+                                        stringResource(
+                                            if (uiState.isSshdRunning) {
+                                                R.string.sshd_menu_toggle_stop
+                                            } else {
+                                                R.string.sshd_menu_toggle_start
+                                            },
+                                        ),
+                                    )
+                                },
+                                onClick = {
+                                    showMenu = false
+                                    onToggleSshd()
                                 },
                             )
                             DropdownMenuItem(
@@ -863,6 +917,7 @@ private fun HostListScreenEmptyPreview() {
             onForgetHostKeys = {},
             onDisconnectHost = {},
             onDisconnectAll = {},
+            onToggleSshd = {},
         )
     }
 }
@@ -889,6 +944,7 @@ private fun HostListScreenLoadingPreview() {
             onForgetHostKeys = {},
             onDisconnectHost = {},
             onDisconnectAll = {},
+            onToggleSshd = {},
         )
     }
 }
@@ -916,6 +972,7 @@ private fun HostListScreenErrorPreview() {
             onForgetHostKeys = {},
             onDisconnectHost = {},
             onDisconnectAll = {},
+            onToggleSshd = {},
         )
     }
 }
@@ -975,6 +1032,7 @@ private fun HostListScreenPopulatedPreview() {
             onForgetHostKeys = {},
             onDisconnectHost = {},
             onDisconnectAll = {},
+            onToggleSshd = {},
         )
     }
 }

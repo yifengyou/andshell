@@ -25,6 +25,19 @@
 
 	<!-- Summary of what the AndShell service does; displayed in the Android running apps list -->
 	<string name="service_desc">"Maintains SSH connections and loaded pubkeys"</string>
+	<!-- Description for the SSHD server service shown in Android's running apps list -->
+	<string name="sshd_service_desc">"Runs an SSH server on this device"</string>
+	<!-- Menu item to start or stop the SSHD server -->
+	<string name="sshd_menu_toggle_start">"Start SSH Server"</string>
+	<string name="sshd_menu_toggle_stop">"Stop SSH Server"</string>
+	<!-- Notification title when SSHD server is running -->
+	<string name="sshd_notification_title">"SSH Server Running"</string>
+	<!-- Notification text showing the port number -->
+	<string name="sshd_notification_text">"Listening on port %1$d"</string>
+	<!-- Notification stop button -->
+	<string name="sshd_notification_stop">"Stop"</string>
+	<!-- Notification channel name for SSHD -->
+	<string name="sshd_notification_channel">"SSH Server"</string>
 
 	<!-- Displayed in the "Help" screen to denote the copyright of this app. -->
 	<string name="app_copyright">Copyright &#xA9; Kenny Root</string>

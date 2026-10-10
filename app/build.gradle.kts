@@ -261,6 +261,11 @@ android {
         resources.excludes.add("META-INF/LICENSE.txt")
         resources.excludes.add("LICENSE.txt")
         resources.excludes.add("**/*.gwt.xml")
+        resources.excludes.add("META-INF/DEPENDENCIES")
+        resources.excludes.add("META-INF/LICENSE")
+        resources.excludes.add("META-INF/NOTICE")
+        resources.excludes.add("META-INF/NOTICE.txt")
+        resources.excludes.add("META-INF/io.netty.versions.properties")
     }
 
     externalNativeBuild {
@@ -490,6 +495,9 @@ tasks
 
 dependencies {
     implementation(libs.sshlib)
+    implementation(libs.sshd.core)
+    implementation(libs.sshd.scp)
+    implementation(libs.sshd.sftp)
     implementation(libs.termlib)
     implementation(libs.androidx.media3.common.ktx)
     implementation(libs.androidx.navigation.testing)

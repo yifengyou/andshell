@@ -18,6 +18,7 @@
 package org.andshell.ui.screens.hostlist
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import androidx.core.content.edit
 import androidx.lifecycle.ViewModel
@@ -41,6 +42,7 @@ import org.andshell.di.CoroutineDispatchers
 import org.andshell.service.DisconnectReason
 import org.andshell.service.ServiceError
 import org.andshell.service.SessionAttentionState
+import org.andshell.service.SshdService
 import org.andshell.service.TerminalManager
 import org.andshell.util.PreferenceConstants
 import javax.inject.Inject
@@ -65,6 +67,8 @@ data class HostListUiState(
     val importResult: ImportResult? = null,
     val startupKeyPrompt: Pubkey? = null,
     val startupKeyWrongPassword: Boolean = false,
+    val isSshdRunning: Boolean = false,
+    val sshdPort: Int = SshdService.DEFAULT_PORT,
 )
 
 data class ImportResult(
@@ -367,6 +371,32 @@ class HostListViewModel @Inject constructor(
         val manager = terminalManager ?: return
         val pubkey = _uiState.value.startupKeyPrompt ?: return
         manager.dismissPendingStartupKey(pubkey)
+    }
+
+    fun setSshdService(service: SshdService?) {
+        viewModelScope.launch {
+            service?.isRunning?.collect { running ->
+                _uiState.update { it.copy(isSshdRunning = running) }
+            }
+        }
+        viewModelScope.launch {
+            service?.port?.collect { p ->
+                _uiState.update { it.copy(sshdPort = p) }
+            }
+        }
+    }
+
+    fun toggleSshd() {
+        val context = this.context
+        if (_uiState.value.isSshdRunning) {
+            val intent = Intent(context, SshdService::class.java).apply {
+                action = SshdService.ACTION_STOP
+            }
+            context.startService(intent)
+        } else {
+            val intent = Intent(context, SshdService::class.java)
+            context.startForegroundService(intent)
+        }
     }
 }
 
