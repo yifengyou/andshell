@@ -1,6 +1,6 @@
 # How to contribute
 
-ConnectBot is maintained by a small number of people and we don't have access to the device models that everyone may have. We want your help in solving issues that make ConnectBot a better client. Here are a few guidelines that we ask contributors to follow.
+AndShell is maintained by a small number of people and we don't have access to the device models that everyone may have. We want your help in solving issues that make AndShell a better client. Here are a few guidelines that we ask contributors to follow.
 
 ## Getting started
 
@@ -52,7 +52,7 @@ ConnectBot is maintained by a small number of people and we don't have access to
 ## Submitting changes
 
 * Push your changes to a topic branch in your fork of the repository.
-* Start a [pull request](https://github.com/connectbot/connectbot/compare/) for ConnectBot.
+* Start a [pull request](https://github.com/connectbot/connectbot/compare/) for AndShell.
 
 ## Additional resources
 

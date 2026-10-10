@@ -39,10 +39,10 @@ import java.security.spec.ECParameterSpec;
  * @author martclau@gmail.com
  *
  */
-// BEGIN connectbot-changed
+// BEGIN andshell-changed
 public final class EcCore {
-// END connectbot-changed
-// BEGIN connectbot-removed
+// END andshell-changed
+// BEGIN andshell-removed
 //  private static final long serialVersionUID = -1376116429660095993L;
 //
 //  private static final String INFO = "Google Keyczar (EC key/parameter generation; EC signing)";
@@ -215,12 +215,12 @@ public final class EcCore {
 //  private static final BigInteger ZERO = BigInteger.ZERO;
 //  private static final BigInteger ONE = BigInteger.ONE;
 //  private static final BigInteger TWO = BigInteger.valueOf(2);
-// END connectbot-removed
+// END andshell-removed
   private static final BigInteger THREE = BigInteger.valueOf(3);
-// BEGIN connectbot-removed
+// BEGIN andshell-removed
 //  private static final BigInteger FOUR = BigInteger.valueOf(4);
 //  private static final BigInteger EIGHT = BigInteger.valueOf(8);
-// END connectbot-removed
+// END andshell-removed
 
   private static BigInteger[] doublePointA(BigInteger[] P,
       ECParameterSpec params) {
@@ -267,7 +267,7 @@ public final class EcCore {
     return Q;
   }
 
-// BEGIN connectbot-removed
+// BEGIN andshell-removed
 //  private static BigInteger[] doublePointJ(BigInteger[] P,
 //      ECParameterSpec params) {
 //    final BigInteger p = ((ECFieldFp) params.getCurve().getField()).getP();
@@ -675,5 +675,5 @@ public final class EcCore {
 //    // else
 //    // System.out.println("Keyczar EC not OK");
 //  }
-//END connectbot-removed
+//END andshell-removed
 }

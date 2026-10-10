@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Edita el color %1$d</string>
   <string name="dialog_title_reset_all">Restaurar tots els colors?</string>
   <string name="dialog_message_reset_all">Això restablirà tots els 256 colors als seus valors per defecte. Aquesta acció no es pot revertir.</string>
-  <string name="app_is_running">El ConnectBot està en marxa</string>
+  <string name="app_is_running">El AndShell està en marxa</string>
   <string name="label_red">Vermell</string>
   <string name="label_green">Verd</string>
   <string name="label_blue">Blau</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Registre d\'aplicacions</string>
   <string name="copy_logs">Copia els registres</string>
   <string name="logs_copied">Els registres s\'han copiat a la memòria portallàpies.</string>
-  <string name="logs_bug_report_info">Per informar d\'un error, copieu aquests registres i obriu un nou registre a https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Per informar d\'un error, copieu aquests registres i obriu un nou registre a https://andshell.org/bug</string>
   <string name="no_logs_available">No hi ha registres disponibles.</string>
   <string name="help_section_about">Sobre</string>
   <string name="title_contact">Contacte i assistència</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Autenticació en iniciar l\'aplicació</string>
   <string name="pref_auth_on_launch_summary">Demana l\'empremta digital, el reconeixement facial o el PIN del dispositiu quan s\'obre l\'aplicació.</string>
   <string name="pref_security_category">Seguretat</string>
-  <string name="auth_screen_title">ConnectBot està bloquejat.</string>
+  <string name="auth_screen_title">AndShell està bloquejat.</string>
   <string name="auth_screen_unlock_button">Toqueu per desbloquejar</string>
-  <string name="auth_prompt_title">Desbloqueja ConnectBot</string>
+  <string name="auth_prompt_title">Desbloqueja AndShell</string>
   <string name="auth_prompt_subtitle">Verifiqueu la vostra identitat per continuar.</string>
   <string name="pref_language_download" tools:machine_translated="true">Descarrega el paquet d’idioma</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">La descàrrega ha fallat; toqueu per tornar-ho a provar.</string>
@@ -693,9 +693,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Mostra els avisos d’alerta de pèrdua de connexió i el senyal acústic del terminal.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Les alertes de connexió estan desactivades. El suport per a la connexió en segon pla continua activat.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android controla la visibilitat de la notificació de la connexió activa, de manera independent de les alertes de connexió.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ha bloquejat les notificacions de ConnectBot. El suport per a la connexió en segon pla continua activat.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ha bloquejat les notificacions de AndShell. El suport per a la connexió en segon pla continua activat.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Notificacions de connexió</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Permetre les notificacions per veure els hostes connectats i rebre alertes sobre el so del terminal i la pèrdua de connexió. Les connexions encara poden funcionar en segon pla sense aquest permís.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Activa les notificacions</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activeu les notificacions per a ConnectBot a la configuració d\'Android per veure els hostes connectats i rebre alertes sobre el so del terminal i la pèrdua de connexió. El suport per a la connexió en segon pla continua activat.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activeu les notificacions per a AndShell a la configuració d\'Android per veure els hostes connectats i rebre alertes sobre el so del terminal i la pèrdua de connexió. El suport per a la connexió en segon pla continua activat.</string>
 </resources>

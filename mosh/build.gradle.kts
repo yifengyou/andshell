@@ -1,5 +1,5 @@
 /*
- * ConnectBot: simple, powerful, open-source SSH client for Android
+ * AndShell: simple, powerful, open-source SSH client for Android
  * Copyright 2026 Kenny Root
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,7 +41,7 @@ abstract class PrepareGoogleMoshArtifacts : DefaultTask() {
         assetsRoot.deleteRecursively()
         val abis = listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
         abis.forEach { abi ->
-            val url = URI("https://github.com/connectbot/mosh4android/releases/download/$tag/mosh-android-$abi.zip").toURL()
+            val url = URI("https://github.com/andshell/mosh4android/releases/download/$tag/mosh-android-$abi.zip").toURL()
             val connection = url.openConnection().apply {
                 connectTimeout = 15_000
                 readTimeout = 60_000
@@ -107,7 +107,7 @@ val prepareGoogleMoshArtifacts = tasks.register<PrepareGoogleMoshArtifacts>("pre
 }
 
 android {
-    namespace = "org.connectbot.mosh"
+    namespace = "org.andshell.mosh"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {

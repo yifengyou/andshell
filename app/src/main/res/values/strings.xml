@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
- * ConnectBot: simple, powerful, open-source SSH client for Android
+ * AndShell: simple, powerful, open-source SSH client for Android
  * Copyright 2007-2025 Kenny Root
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,10 +20,10 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools"
 	xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<!-- Summary of what ConnectBot is; used as a short description in the Android running apps list -->
+	<!-- Summary of what AndShell is; used as a short description in the Android running apps list -->
 	<string name="app_desc">"Simple, powerful, open-source SSH client."</string>
 
-	<!-- Summary of what the ConnectBot service does; displayed in the Android running apps list -->
+	<!-- Summary of what the AndShell service does; displayed in the Android running apps list -->
 	<string name="service_desc">"Maintains SSH connections and loaded pubkeys"</string>
 
 	<!-- Displayed in the "Help" screen to denote the copyright of this app. -->
@@ -345,7 +345,7 @@
 	<!-- Explanation below the alerts switch; the service notification is required independently of optional alerts. -->
 	<string name="pref_service_notification_visibility">Android controls the visibility of the ongoing connection notification independently of connection alerts.</string>
 	<!-- Clickable Settings notice opening Android notification settings when notifications are blocked. -->
-	<string name="pref_notifications_blocked">Android has blocked notifications for ConnectBot. Background connection support remains enabled.</string>
+	<string name="pref_notifications_blocked">Android has blocked notifications for AndShell. Background connection support remains enabled.</string>
 
 	<!-- Name for the keyboard shortcuts preference -->
 	<string name="pref_keymode_title">"Directory shortcuts"</string>
@@ -939,7 +939,7 @@
 	<string name="dialog_message_reset_all">"This will reset all 256 colors to their default values. This action cannot be undone."</string>
 
 	<!-- Displayed in the notification bar that connections are active -->
-	<string name="app_is_running">"ConnectBot is running"</string>
+	<string name="app_is_running">"AndShell is running"</string>
 
 	<!-- RGB color picker labels -->
 	<!-- Label for the red color component slider (0-255) in the RGB color picker -->
@@ -1247,9 +1247,9 @@
 	<!-- Title for the Settings dialog shown when notification permission was previously denied. -->
 	<string name="connection_alert_permission_denied_title">Enable notifications</string>
 	<!-- Explains how to enable optional connection notifications in Android settings. -->
-	<string name="connection_alert_permission_denied_message">Enable notifications for ConnectBot in Android settings to see connected hosts and receive terminal bell and connection loss alerts. Background connection support remains enabled.</string>
+	<string name="connection_alert_permission_denied_message">Enable notifications for AndShell in Android settings to see connected hosts and receive terminal bell and connection loss alerts. Background connection support remains enabled.</string>
 
-	<!-- Button text to open ConnectBot app settings page where user can grant notification permission. -->
+	<!-- Button text to open AndShell app settings page where user can grant notification permission. -->
 	<string name="open_settings">"Open settings"</string>
 
 
@@ -1342,7 +1342,7 @@
 	<!-- Confirmation message shown when logs are copied to clipboard -->
 	<string name="logs_copied">Logs copied to clipboard</string>
 	<!-- Instruction text for reporting bugs with logs -->
-	<string name="logs_bug_report_info">To report a bug, copy these logs and open a new issue at https://connectbot.org/bug</string>
+	<string name="logs_bug_report_info">To report a bug, copy these logs and open a new issue at https://andshell.org/bug</string>
 	<!-- Message shown when no logs are available -->
 	<string name="no_logs_available">No logs available</string>
 	<!-- Heading in View Logs for up to ten retained process exit records, newest first. -->
@@ -1376,16 +1376,16 @@
 	<string name="help_section_contact">Contact &amp; Support</string>
 	<!-- Label for the official website link in the Help screen. -->
 	<string name="help_website">Website</string>
-	<!-- URL for the official ConnectBot website. -->
-	<string name="help_website_url" translatable="false">https://connectbot.org/</string>
+	<!-- URL for the official AndShell website. -->
+	<string name="help_website_url" translatable="false">https://andshell.org/</string>
 	<!-- Label for the GitHub repository link in the Help screen. -->
 	<string name="help_github">Source Code</string>
-	<!-- URL for the ConnectBot GitHub repository. -->
-	<string name="help_github_url" translatable="false">https://github.com/connectbot/connectbot</string>
+	<!-- URL for the AndShell GitHub repository. -->
+	<string name="help_github_url" translatable="false">https://github.com/andshell/andshell</string>
 	<!-- Label for the bug report/issue tracker link in the Help screen. -->
 	<string name="help_report_bug">Report a Bug</string>
-	<!-- URL for the ConnectBot issue tracker. -->
-	<string name="help_report_bug_url" translatable="false">https://connectbot.org/bug</string>
+	<!-- URL for the AndShell issue tracker. -->
+	<string name="help_report_bug_url" translatable="false">https://andshell.org/bug</string>
 	<!-- Section title for the "Help" screen showing donation options. -->
 	<string name="help_section_donate">Support Development</string>
 	<!-- Label for the GitHub Sponsors donation link in the Help screen. -->
@@ -1495,11 +1495,11 @@
 	<!-- Category title for security preferences in settings -->
 	<string name="pref_security_category">Security</string>
 	<!-- Title shown on the authentication lock screen -->
-	<string name="auth_screen_title">ConnectBot is locked</string>
+	<string name="auth_screen_title">AndShell is locked</string>
 	<!-- Button text to trigger authentication on the lock screen -->
 	<string name="auth_screen_unlock_button">Tap to unlock</string>
 	<!-- Title shown in the biometric/device credential authentication prompt -->
-	<string name="auth_prompt_title">Unlock ConnectBot</string>
+	<string name="auth_prompt_title">Unlock AndShell</string>
 	<!-- Subtitle shown in the biometric/device credential authentication prompt -->
 	<string name="auth_prompt_subtitle">Verify your identity to continue</string>
 
@@ -1662,7 +1662,7 @@
 	<string name="notification_channel_bells">Terminal bells</string>
 	<!-- Notification channel name for unexpected connection failures. -->
 	<string name="notification_channel_connections">Lost connections</string>
-	<!-- Settings row below the background connection switch that opens ConnectBot's notification channels in Android settings. -->
+	<!-- Settings row below the background connection switch that opens AndShell's notification channels in Android settings. -->
 	<string name="pref_notification_channels_title">Manage notification channels in settings</string>
 	<!-- Ongoing notification count of live sessions, excluding connecting and disconnected sessions. -->
 	<plurals name="notification_connected_sessions">

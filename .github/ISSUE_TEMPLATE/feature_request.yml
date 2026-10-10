@@ -8,9 +8,9 @@ body:
         Thanks for suggesting a feature! Please provide as much detail as possible to help us understand your needs.
 
   - type: input
-    id: connectbot-version
+    id: andshell-version
     attributes:
-      label: ConnectBot version
+      label: AndShell version
       description: You can find this in the app under Menu > Help > About.
       placeholder: "1.9.10"
     validations:

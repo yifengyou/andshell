@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">ערוך צבע %1$d</string>
   <string name="dialog_title_reset_all">לאפס את כל הצבעים?</string>
   <string name="dialog_message_reset_all">פעולה זו תאפס את כל 256 הצבעים לערכים המוגדרים כברירת מחדל. לא ניתן לבטל פעולה זו.</string>
-  <string name="app_is_running">ConnectBot פעיל</string>
+  <string name="app_is_running">AndShell פעיל</string>
   <string name="label_red">אדום</string>
   <string name="label_green">ירוק</string>
   <string name="label_blue">כחול</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">יומני יישומים</string>
   <string name="copy_logs">העתק יומנים</string>
   <string name="logs_copied">היומנים הועתקו ללוח הגזירים</string>
-  <string name="logs_bug_report_info">כדי לדווח על תקלה, העתק את קבצי הרישום האלה ופתח דיווח חדש בכתובת https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">כדי לדווח על תקלה, העתק את קבצי הרישום האלה ופתח דיווח חדש בכתובת https://andshell.org/bug</string>
   <string name="no_logs_available">אין יומנים זמינים</string>
   <string name="help_section_about">אודות</string>
   <string name="title_contact">צור קשר ותמיכה</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">אימות בעת ההפעלה</string>
   <string name="pref_auth_on_launch_summary">יש לדרוש טביעת אצבע, זיהוי פנים או קוד PIN של המכשיר בעת פתיחת האפליקציה</string>
   <string name="pref_security_category">אבטחה</string>
-  <string name="auth_screen_title">ConnectBot נעול</string>
+  <string name="auth_screen_title">AndShell נעול</string>
   <string name="auth_screen_unlock_button">הקש כדי לבטל את הנעילה</string>
-  <string name="auth_prompt_title">פתח את ConnectBot</string>
+  <string name="auth_prompt_title">פתח את AndShell</string>
   <string name="auth_prompt_subtitle">אמת את זהותך כדי להמשיך</string>
   <string name="pref_language_download" tools:machine_translated="true">הורד חבילת שפה</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">ההורדה נכשלה, לחצו כדי לנסות שוב</string>
@@ -693,9 +693,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">הצג התראות על צליל התראה וניתוק חיבור.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">התראות על חיבורים כבויות. תמיכה בחיבורים ברקע נשארת פעילה.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">מערכת Android שולטת בנראות של ההתראה על החיבור הפעיל, באופן עצמאי מהתראות החיבור האופציונליות.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">מערכת Android חסמה את ההתראות עבור ConnectBot. תמיכה בחיבורים ברקע עדיין מופעלת.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">מערכת Android חסמה את ההתראות עבור AndShell. תמיכה בחיבורים ברקע עדיין מופעלת.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">התראות חיבור</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">אפשר הודעות כדי לראות את המכשירים המחוברים ולקבל התראות על צליל התראה ואובדן חיבור. גם בלי הרשאה זו, חיבורים עדיין יכולים לפעול ברקע.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">אפשר התראות</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">הפעל התראות עבור ConnectBot בהגדרות האנדרואיד כדי לראות את המכשירים המחוברים ולקבל התראות על צליל התראה וניתוק חיבור. תמיכה בחיבור ברקע נשארת פעילה.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">הפעל התראות עבור AndShell בהגדרות האנדרואיד כדי לראות את המכשירים המחוברים ולקבל התראות על צליל התראה וניתוק חיבור. תמיכה בחיבור ברקע נשארת פעילה.</string>
 </resources>

@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Edytuj kolor %1$d</string>
   <string name="dialog_title_reset_all">Zresetować wszystkie kolory?</string>
   <string name="dialog_message_reset_all">To spowoduje zresetowanie wszystkich 256 kolorów do ich wartości domyślnych. Ten czynność nie może być cofnięta.</string>
-  <string name="app_is_running">ConnectBot jest uruchomiony</string>
+  <string name="app_is_running">AndShell jest uruchomiony</string>
   <string name="label_red">Czerwony</string>
   <string name="label_green">Zielony</string>
   <string name="label_blue">Niebieski</string>
@@ -467,9 +467,9 @@
   <string name="logs_title">Dzienniki aplikacji</string>
   <string name="copy_logs">Kopiuj dzienniki</string>
   <string name="logs_copied">Dzienniki skopiowane do schowka</string>
-  <string name="logs_bug_report_info">Aby zgłosić błąd, skopiuj te logi i otwórz nowy problem pod adresem https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Aby zgłosić błąd, skopiuj te logi i otwórz nowy problem pod adresem https://andshell.org/bug</string>
   <string name="no_logs_available">Brak dostępnych logów</string>
-  <string name="help_section_about">O ConnectBot jest aplikacją SSH dla systemu Android która pozwala uzytkownikom na uzycie Secure Shell Telnet lub lokalnej powloki aby polaczyc sie z zdalnymi serwerami oraz lokalnym systemem poprzez okreslenie hosta portu i nazwy uzytkownika do polaczenia. Zawiera rowniez emulator terminala ktorym uzytkownicy moga uzyc do interakcji ze zdalna lub lokalna powloka</string>
+  <string name="help_section_about">O AndShell jest aplikacją SSH dla systemu Android która pozwala uzytkownikom na uzycie Secure Shell Telnet lub lokalnej powloki aby polaczyc sie z zdalnymi serwerami oraz lokalnym systemem poprzez okreslenie hosta portu i nazwy uzytkownika do polaczenia. Zawiera rowniez emulator terminala ktorym uzytkownicy moga uzyc do interakcji ze zdalna lub lokalna powloka</string>
   <string name="title_contact">Kontakt i pomoc</string>
   <string name="help_section_contact">Kontakt i pomoc</string>
   <string name="help_website">Strona internetowa</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Uwierzytelnianie przy uruchomieniu</string>
   <string name="pref_auth_on_launch_summary">Wymagaj uwierzytelnienia za pomocą odcisku palca, rozpoznawania twarzy lub kodu PIN urządzenia podczas uruchamiania aplikacji.</string>
   <string name="pref_security_category">Bezpieczeństwo</string>
-  <string name="auth_screen_title">ConnectBot jest zablokowany</string>
+  <string name="auth_screen_title">AndShell jest zablokowany</string>
   <string name="auth_screen_unlock_button">Dotknij, aby odblokować</string>
-  <string name="auth_prompt_title">Odblokuj ConnectBot</string>
+  <string name="auth_prompt_title">Odblokuj AndShell</string>
   <string name="auth_prompt_subtitle">Aby kontynuować, zweryfikuj swoją tożsamość.</string>
   <string name="pref_language_download" tools:machine_translated="true">Pobierz pakiet językowy</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Pobieranie nie powiodło się, dotknij, aby spróbować ponownie.</string>
@@ -697,9 +697,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Wyświetl powiadomienia o dźwięku terminala i utracie połączenia.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Wyłączono powiadomienia o połączeniu. Obsługa połączenia w tle pozostaje włączona.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">System Android samodzielnie zarządza wyświetlaniem powiadomienia o aktywnym połączeniu, niezależnie od powiadomień o zmianach w połączeniu.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android zablokował powiadomienia dla ConnectBot. Obsługa połączeń w tle pozostaje włączona.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android zablokował powiadomienia dla AndShell. Obsługa połączeń w tle pozostaje włączona.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Powiadomienia o połączeniu</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Zezwól na wyświetlanie powiadomień, aby widzieć podłączone urządzenia i otrzymywać alerty o dźwiękach terminala oraz utracie połączenia. Nawet bez tej zgody połączenia mogą nadal działać w tle.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Włącz powiadomienia</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Włącz powiadomienia dla ConnectBot w ustawieniach Androida, aby wyświetlać listę połączonych hostów i otrzymywać alerty o dźwiękach terminala oraz utracie połączenia. Obsługa połączeń w tle pozostaje włączona.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Włącz powiadomienia dla AndShell w ustawieniach Androida, aby wyświetlać listę połączonych hostów i otrzymywać alerty o dźwiękach terminala oraz utracie połączenia. Obsługa połączeń w tle pozostaje włączona.</string>
 </resources>

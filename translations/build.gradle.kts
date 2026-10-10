@@ -5,7 +5,7 @@ plugins {
 }
 
 /*
- * ConnectBot: simple, powerful, open-source SSH client for Android
+ * AndShell: simple, powerful, open-source SSH client for Android
  * Copyright 2015 Kenny Root, Jeffrey Sharkey
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

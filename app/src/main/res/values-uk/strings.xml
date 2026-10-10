@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Змінити колір %1$d</string>
   <string name="dialog_title_reset_all">Скинути всі кольори?</string>
   <string name="dialog_message_reset_all">Це скине всі 256 кольорів до їхніх значень за замовчуванням. Цю дію неможливо скасувати.</string>
-  <string name="app_is_running">ConnectBot запущено</string>
+  <string name="app_is_running">AndShell запущено</string>
   <string name="label_red">Червоний</string>
   <string name="label_green">Зелений</string>
   <string name="label_blue">Синій</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Журнали програм</string>
   <string name="copy_logs">Копіювати журнали</string>
   <string name="logs_copied">Журнали скопійовано до буфера обміну</string>
-  <string name="logs_bug_report_info">Щоб повідомити про помилку, скопіюйте ці журнали та створіть нове повідомлення на сайті https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Щоб повідомити про помилку, скопіюйте ці журнали та створіть нове повідомлення на сайті https://andshell.org/bug</string>
   <string name="no_logs_available">Журнали недоступні</string>
   <string name="help_section_about">Про програму</string>
   <string name="title_contact">Контакти та підтримка</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Аутентифікація під час запуску</string>
   <string name="pref_auth_on_launch_summary">Вимагайте підтвердження за допомогою відбитка пальця, розпізнавання обличчя або PIN-коду пристрою під час відкриття програми</string>
   <string name="pref_security_category">Безпека</string>
-  <string name="auth_screen_title">ConnectBot заблоковано</string>
+  <string name="auth_screen_title">AndShell заблоковано</string>
   <string name="auth_screen_unlock_button">Торкніться, щоб розблокувати</string>
-  <string name="auth_prompt_title">Розблокуйте ConnectBot</string>
+  <string name="auth_prompt_title">Розблокуйте AndShell</string>
   <string name="auth_prompt_subtitle">Підтвердьте свою особу, щоб продовжити</string>
   <string name="pref_language_download" tools:machine_translated="true">Завантажити мовний пакет</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Завантаження не вдалося, торкніться, щоб повторити спробу.</string>
@@ -697,9 +697,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Відображати звуковий сигнал термінала та сповіщення про втрату з’єднання.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Сповіщення про підключення вимкнено. Підтримка фонового підключення залишається ввімкненою.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">У системі Android відображення сповіщення про поточне підключення контролюється незалежно від сповіщень про підключення.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">У системі Android заблоковано сповіщення для ConnectBot. Підтримка фонового з’єднання залишається ввімкненою.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">У системі Android заблоковано сповіщення для AndShell. Підтримка фонового з’єднання залишається ввімкненою.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Сповіщення про підключення</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Дозвольте надсилати сповіщення, щоб бачити під’єднані пристрої та отримувати повідомлення про звуковий сигнал і втрату з’єднання. З’єднання все ще можуть працювати у фоновому режимі без цієї дозволу.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Увімкнути сповіщення</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Увімкніть сповіщення для ConnectBot у налаштуваннях Android, щоб бачити під’єднані пристрої та отримувати сповіщення про звуковий сигнал термінала та втрату з’єднання. Підтримка фонових з’єднань залишається ввімкненою.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Увімкніть сповіщення для AndShell у налаштуваннях Android, щоб бачити під’єднані пристрої та отримувати сповіщення про звуковий сигнал термінала та втрату з’єднання. Підтримка фонових з’єднань залишається ввімкненою.</string>
 </resources>

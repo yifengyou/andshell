@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">編輯顏色：%1$d</string>
   <string name="dialog_title_reset_all">重設所有顏色？</string>
   <string name="dialog_message_reset_all">這會將所有 256 種顏色重設為預設值。這個動作無法撤銷。</string>
-  <string name="app_is_running">ConnectBot 執行中</string>
+  <string name="app_is_running">AndShell 執行中</string>
   <string name="label_red">紅色</string>
   <string name="label_green">綠色</string>
   <string name="label_blue">藍色</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">應用程式日誌</string>
   <string name="copy_logs">複製日誌</string>
   <string name="logs_copied">日誌已複製到剪貼簿</string>
-  <string name="logs_bug_report_info">若要回報錯誤，請複製這些記錄，然後在 https://connectbot.org/bug 上建立新的問題</string>
+  <string name="logs_bug_report_info">若要回報錯誤，請複製這些記錄，然後在 https://andshell.org/bug 上建立新的問題</string>
   <string name="no_logs_available">沒有可用的日誌</string>
   <string name="help_section_about">關於</string>
   <string name="title_contact">聯絡與支援</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">啟動時進行驗證</string>
   <string name="pref_auth_on_launch_summary">開啟應用程式時，請要求使用指紋、臉部辨識或裝置 PIN 碼</string>
   <string name="pref_security_category">安全性</string>
-  <string name="auth_screen_title">ConnectBot 已鎖定</string>
+  <string name="auth_screen_title">AndShell 已鎖定</string>
   <string name="auth_screen_unlock_button">點擊以解鎖</string>
-  <string name="auth_prompt_title">解鎖 ConnectBot</string>
+  <string name="auth_prompt_title">解鎖 AndShell</string>
   <string name="auth_prompt_subtitle">請驗證您的身分以繼續</string>
   <string name="pref_language_download" tools:machine_translated="true">下載語言套件</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">下載失敗，請點擊以重新嘗試。</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">顯示終端鈴聲和連線中斷警示。</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">已關閉連線提醒。背景連線功能仍保持啟用狀態。</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android 會獨立控制目前連線通知的顯示與否，與連線提醒設定無關。</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android 已封鎖 ConnectBot 的通知。背景連線功能仍然啟用。</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android 已封鎖 AndShell 的通知。背景連線功能仍然啟用。</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">連線通知</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">允許接收通知，以便查看已連線的主機，並接收終端警報和連線中斷提醒。即使未授予此權限，連線仍可在背景執行。</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">啟用通知功能</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">在 Android 設定中啟用 ConnectBot 的通知功能，以便查看已連線的主機，並接收終端警報和連線中斷提醒。背景連線功能將繼續啟用。</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">在 Android 設定中啟用 AndShell 的通知功能，以便查看已連線的主機，並接收終端警報和連線中斷提醒。背景連線功能將繼續啟用。</string>
 </resources>

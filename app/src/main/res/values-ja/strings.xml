@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">カラーエディット %1$d</string>
   <string name="dialog_title_reset_all">すべての色をリセットしますか?</string>
   <string name="dialog_message_reset_all">これにより、256色すべてがデフォルト値にリセットされます。この操作は取り消すことができません。</string>
-  <string name="app_is_running">ConnectBot起動中</string>
+  <string name="app_is_running">AndShell起動中</string>
   <string name="label_red">レッド</string>
   <string name="label_green">グリーン</string>
   <string name="label_blue">ブルー</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">アプリケーションログ</string>
   <string name="copy_logs">ログのコピー</string>
   <string name="logs_copied">クリップボードにログをコピーしました</string>
-  <string name="logs_bug_report_info">バグを報告するにはこれらのログをコピーしてhttps://connectbot.org/bugで新しい課題を開いてください</string>
+  <string name="logs_bug_report_info">バグを報告するにはこれらのログをコピーしてhttps://andshell.org/bugで新しい課題を開いてください</string>
   <string name="no_logs_available">ログは利用できない</string>
   <string name="help_section_about">概要</string>
   <string name="title_contact">お問い合わせとサポート</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">起動時の認証</string>
   <string name="pref_auth_on_launch_summary">アプリを開く際に、指紋、顔認証、またはデバイスのPINコードの入力を必須にする</string>
   <string name="pref_security_category">セキュリティ</string>
-  <string name="auth_screen_title">ConnectBotがロックされています</string>
+  <string name="auth_screen_title">AndShellがロックされています</string>
   <string name="auth_screen_unlock_button">アンロックするためにタップしてください</string>
-  <string name="auth_prompt_title">ConnectBotのロックを解除</string>
+  <string name="auth_prompt_title">AndShellのロックを解除</string>
   <string name="auth_prompt_subtitle">本人確認を行い、続行してください。</string>
   <string name="pref_language_download" tools:machine_translated="true">言語パックをダウンロード</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">ダウンロードに失敗しました。再試行するにはタップしてください。</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">ターミナルベルと接続喪失時の警告を表示</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">接続に関する警告はオフになっています。バックグラウンド接続のサポートは引き続き有効です。</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Androidは、接続状況の通知を、接続に関するアラートとは独立して表示または非表示に制御します。</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">AndroidでConnectBotからの通知がブロックされました。バックグラウンド接続のサポートは引き続き有効です。</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">AndroidでAndShellからの通知がブロックされました。バックグラウンド接続のサポートは引き続き有効です。</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">接続通知</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">通知を許可すると、接続されているホストを確認したり、ターミナルベルや接続切断の警告を受け取ったりできます。この許可を与えなくても、接続はバックグラウンドで引き続き実行できます。</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">通知を許可する</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Androidの設定でConnectBotの通知を有効にすると、接続されているホストを確認でき、ターミナルベルや接続切断の警告を受け取ることができます。バックグラウンド接続のサポートは引き続き有効です。</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Androidの設定でAndShellの通知を有効にすると、接続されているホストを確認でき、ターミナルベルや接続切断の警告を受け取ることができます。バックグラウンド接続のサポートは引き続き有効です。</string>
 </resources>

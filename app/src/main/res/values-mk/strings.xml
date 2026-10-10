@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">Уредете ја бојата %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">Дали сакате да ги ресетирате сите бои?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">Ова ќе ги врати сите 256 бои на нивните стандардни вредности. Оваа акција не може да се поништи.</string>
-  <string name="app_is_running" tools:machine_translated="true">ConnectBot е во тек.</string>
+  <string name="app_is_running" tools:machine_translated="true">AndShell е во тек.</string>
   <string name="label_red" tools:machine_translated="true">Црвена</string>
   <string name="label_green" tools:machine_translated="true">Зелена</string>
   <string name="label_blue" tools:machine_translated="true">Сина</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Дневници на апликациите</string>
   <string name="copy_logs" tools:machine_translated="true">Копирај ги логовите</string>
   <string name="logs_copied" tools:machine_translated="true">Дневниците се копирани во привремениот простор за складирање.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">За да пријавите грешка, копирајте ги овие логови и отворете нов проблем на https://connectbot.org/bug.</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">За да пријавите грешка, копирајте ги овие логови и отворете нов проблем на https://andshell.org/bug.</string>
   <string name="no_logs_available" tools:machine_translated="true">Нема достапни записи</string>
   <string name="help_section_about" tools:machine_translated="true">За програмата</string>
   <string name="title_contact" tools:machine_translated="true">Контакт и поддршка</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Аутентикација при стартување</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Задолжително е да се користи отпечаток од прст, препознавање на лице или ПИН-код на уредот при отворање на апликацијата.</string>
   <string name="pref_security_category" tools:machine_translated="true">Безбедност</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot е заклучен</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell е заклучен</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Допрете за отклучување</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Отклучете го ConnectBot.</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Отклучете го AndShell.</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Потврдете ја вашата идентификација за да продолжите.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Порака за автентикација од %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Порака за автентикација:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Прикажи звучен сигнал и известувања за прекин на поврзувањето.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Известувањата за поврзување се исклучени. Поддршката за поврзување во позадина останува активирана.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android го контролира прикажувањето на известувањето за активната конекција, независно од известувањата за конекција.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ги блокираше известувањата за ConnectBot. Поддршката за позадинска конекција останува активирана.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ги блокираше известувањата за AndShell. Поддршката за позадинска конекција останува активирана.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Известувања за поврзување</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Овозможете ги известувањата за да ги видите поврзаните уреди и да добивате известувања за звучен сигнал и прекин на поврзувањето. Поврзувањата сепак можат да продолжат да работат во позадина дури и без оваа дозвола.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Овозможете известувања</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Овозможете известувања за ConnectBot во поставките на Android за да ги видите поврзаните уреди и да добивате известувања за звук и прекин на поврзувањето. Поддршката за позадинска поврзаност останува овозможена.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Овозможете известувања за AndShell во поставките на Android за да ги видите поврзаните уреди и да добивате известувања за звук и прекин на поврзувањето. Поддршката за позадинска поврзаност останува овозможена.</string>
 </resources>

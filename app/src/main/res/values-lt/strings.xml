@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">Redaguoti spalvą %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">Ar norite atkurti visų spalvų nustatymus?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">Tai atkurs visus 256 spalvų atspalvius į jų pradinius nustatymus. Šio veiksmo negalima atšaukti.</string>
-  <string name="app_is_running" tools:machine_translated="true">„ConnectBot“ veikia.</string>
+  <string name="app_is_running" tools:machine_translated="true">„AndShell“ veikia.</string>
   <string name="label_red" tools:machine_translated="true">Raudona</string>
   <string name="label_green" tools:machine_translated="true">Žalias</string>
   <string name="label_blue" tools:machine_translated="true">Mėlyna</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Programos įvykių žurnalas</string>
   <string name="copy_logs" tools:machine_translated="true">Nukopijuoti įrašus</string>
   <string name="logs_copied" tools:machine_translated="true">Žurnalų įrašai nukopijuoti į iškarpinę.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Norėdami pranešti apie klaidą, nukopijuokite šiuos žurnalus ir atidarykite naują pranešimą adresu https://connectbot.org/bug.</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Norėdami pranešti apie klaidą, nukopijuokite šiuos žurnalus ir atidarykite naują pranešimą adresu https://andshell.org/bug.</string>
   <string name="no_logs_available" tools:machine_translated="true">Nėra įrašų</string>
   <string name="help_section_about" tools:machine_translated="true">Apie</string>
   <string name="title_contact" tools:machine_translated="true">Susisiekite ir gaukite pagalbą</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Autentifikacija paleidžiant programą.</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Atidarius programėlę, privaloma naudoti pirštų atspaudą, veido atpažinimą arba įrenginio PIN kodą.</string>
   <string name="pref_security_category" tools:machine_translated="true">Saugumas</string>
-  <string name="auth_screen_title" tools:machine_translated="true">„ConnectBot“ užrakintas.</string>
+  <string name="auth_screen_title" tools:machine_translated="true">„AndShell“ užrakintas.</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Palieskite, kad atrakintumėte.</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Atrakinkite „ConnectBot“</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Atrakinkite „AndShell“</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Patvirtinkite savo tapatybę, kad galėtumėte tęsti.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Autentifikavimo pranešimas iš %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Autentifikacijos pranešimas:</string>
@@ -697,9 +697,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Rodyti terminalo garsinį signalą ir pranešimus apie ryšio nutrūkimą.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Pranešimai apie ryšį yra išjungti. Fono ryšio palaikymas lieka įjungtas.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">„Android“ valdo, ar rodomas pranešimas apie vykstantį ryšį, nepriklausomai nuo ryšio įspėjimų.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">„Android“ užblokavo „ConnectBot“ pranešimus. Fono ryšio palaikymas vis dar įjungtas.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">„Android“ užblokavo „AndShell“ pranešimus. Fono ryšio palaikymas vis dar įjungtas.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Pranešimai apie ryšį</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Leiskite gauti pranešimus, kad matytumėte prijungtus įrenginius ir gautumėte įspėjimus apie garsinį signalą bei ryšio nutrūkimą. Net jei šis leidimas neįgalintas, ryšiai vis tiek gali veikti fone.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Įjunkite pranešimus.</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Įjunkite „ConnectBot“ pranešimus „Android“ nustatymuose, kad matytumėte prijungtus įrenginius ir gautumėte terminalo signalo bei ryšio nutrūkimo pranešimus. Fono ryšio palaikymas lieka įjungtas.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Įjunkite „AndShell“ pranešimus „Android“ nustatymuose, kad matytumėte prijungtus įrenginius ir gautumėte terminalo signalo bei ryšio nutrūkimo pranešimus. Fono ryšio palaikymas lieka įjungtas.</string>
 </resources>

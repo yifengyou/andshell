@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">செயலி பதிவுகள்</string>
   <string name="copy_logs" tools:machine_translated="true">பதிவுகளை நகலெடு</string>
   <string name="logs_copied" tools:machine_translated="true">பதிவுகள் கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டன்</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">பிழையைப் புகாரளிக்க, இந்த பதிவுகளை நகலெடுத்து, https://connectbot.org/bug என்ற முகவரியில் புதிய பிழை அறிக்கையைத் திறக்கவும்.</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">பிழையைப் புகாரளிக்க, இந்த பதிவுகளை நகலெடுத்து, https://andshell.org/bug என்ற முகவரியில் புதிய பிழை அறிக்கையைத் திறக்கவும்.</string>
   <string name="no_logs_available" tools:machine_translated="true">பதிவுகள் எதுவும் கிடைக்கவில்லை</string>
   <string name="help_section_about" tools:machine_translated="true">பற்றி</string>
   <string name="title_contact" tools:machine_translated="true">தொடர்பு மற்றும் உதவி</string>

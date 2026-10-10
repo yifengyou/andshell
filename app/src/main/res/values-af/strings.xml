@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">Wysig kleur %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">Wil jy al die kleure terugstel?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">Dit sal al 256 kleure na hul standaardwaardes terugstel. Hierdie aksie kan nie ongedaan gemaak word nie.</string>
-  <string name="app_is_running" tools:machine_translated="true">ConnectBot is besig om te werk</string>
+  <string name="app_is_running" tools:machine_translated="true">AndShell is besig om te werk</string>
   <string name="label_red" tools:machine_translated="true">Rooi</string>
   <string name="label_green" tools:machine_translated="true">Groen</string>
   <string name="label_blue" tools:machine_translated="true">Blou</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Toepassingslogboeke</string>
   <string name="copy_logs" tools:machine_translated="true">Kopieer logboeke</string>
   <string name="logs_copied" tools:machine_translated="true">Logboeke na die knipbord gekopieer.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Om ’n fout aan te meld, kopieer hierdie logboeke en skep ’n nuwe probleemverslag by https://connectbot.org/bug.</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Om ’n fout aan te meld, kopieer hierdie logboeke en skep ’n nuwe probleemverslag by https://andshell.org/bug.</string>
   <string name="no_logs_available" tools:machine_translated="true">Geen logboeke beskikbaar nie.</string>
   <string name="help_section_about" tools:machine_translated="true">Oor</string>
   <string name="title_contact" tools:machine_translated="true">Kontak en ondersteuning</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Verifikasie tydens bekendstelling</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Vereis vingerafdruk, gesigherkenning of toestel-PIN wanneer die toepassing oopgemaak word.</string>
   <string name="pref_security_category" tools:machine_translated="true">Veiligheid</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot is gesluit</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell is gesluit</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Tik om te ontsluit</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Ontsluit ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Ontsluit AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Bevestig u identiteit om voort te gaan.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Verifikasieboodskap van %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Verifikasieboodskap:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Wys die terminalklok en waarskuwings vir verbreekte verbindings.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Verbindingswaarskuwings is af. Ondersteuning vir verbindings in die agtergrond bly geaktiveer.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android beheer die sigbaarheid van die lopende verbindingskennisgewing, onafhanklik van verbindingswaarskuwings.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android het kennisgewings vir ConnectBot geblokkeer. Ondersteuning vir agtergrondverbinding bly geaktiveer.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android het kennisgewings vir AndShell geblokkeer. Ondersteuning vir agtergrondverbinding bly geaktiveer.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Kennisgewings oor verbinding</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Laat toe dat kennisgewings vertoon word om gekoppelde gasheere te sien en waarskuwings vir terminale sein en verbindingsverlies te ontvang. Verbindings kan steeds op die agtergrond werk, selfs sonder hierdie toestemming.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Skakel kennisgewings in.</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktiveer kennisgewings vir ConnectBot in die Android-instellings om gekoppelde gasheere te sien en waarskuwings vir terminale-klanke en verbindingsverlies te ontvang. Agtergrondverbindingondersteuning bly geaktiveer.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktiveer kennisgewings vir AndShell in die Android-instellings om gekoppelde gasheere te sien en waarskuwings vir terminale-klanke en verbindingsverlies te ontvang. Agtergrondverbindingondersteuning bly geaktiveer.</string>
 </resources>

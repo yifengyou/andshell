@@ -147,7 +147,7 @@
   <string name="notification_text">%1$s ønsker din oppmerksomhet.</string>
   <string name="no">Nei</string>
   <string name="yes">Ja</string>
-  <string name="app_is_running">ConnectBot kjører</string>
+  <string name="app_is_running">AndShell kjører</string>
   <string name="app_copyright" tools:machine_translated="true">Copyright © Kenny Root</string>
   <string name="title_eula" tools:machine_translated="true">Lisens</string>
   <string name="pubkey_copy_private_openssh" tools:machine_translated="true">Kopier privat nøkkel (OpenSSH)</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Programlogger</string>
   <string name="copy_logs" tools:machine_translated="true">Kopier logger</string>
   <string name="logs_copied" tools:machine_translated="true">Loggene er kopiert til utklippstavlen</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">For å rapportere en feil, kopier disse loggene og opprett en ny sak på https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">For å rapportere en feil, kopier disse loggene og opprett en ny sak på https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Ingen logger tilgjengelig</string>
   <string name="help_section_about" tools:machine_translated="true">Om</string>
   <string name="title_contact" tools:machine_translated="true">Kontakt og støtte</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Autentisering ved oppstart</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Krev at brukeren bruker fingeravtrykk, ansiktsgjenkjenning eller enhets-PIN-kode når appen åpnes.</string>
   <string name="pref_security_category" tools:machine_translated="true">Sikkerhet</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot er låst</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell er låst</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Trykk for å låse opp</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Lås opp ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Lås opp AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Bekreft identiteten din for å fortsette.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Autentiseringsmelding fra %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Autentiseringsmelding:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Vis varsler for terminalsignal og tap av tilkobling.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Varsler for tilkobling er slått av. Støtte for bakgrunnstilkobling er fortsatt aktivert.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android styrer synligheten til varslingen om den aktive tilkoblingen, uavhengig av tilkoblingsvarsler.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android har blokkert varsler for ConnectBot. Støtte for bakgrunnstilkobling er fortsatt aktivert.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android har blokkert varsler for AndShell. Støtte for bakgrunnstilkobling er fortsatt aktivert.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Varsler om tilkobling</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Tillat varsler for å se tilkoblede enheter og motta varsler om terminalsignaler og tap av tilkobling. Tilkoblinger kan fortsatt kjøre i bakgrunnen selv uten denne tillatelsen.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Aktiver varsler</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktiver varsler for ConnectBot i Android-innstillingene for å se tilkoblede enheter og motta varsler om terminalsignaler og tap av tilkobling. Støtte for bakgrunnstilkobling forblir aktivert.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktiver varsler for AndShell i Android-innstillingene for å se tilkoblede enheter og motta varsler om terminalsignaler og tap av tilkobling. Støtte for bakgrunnstilkobling forblir aktivert.</string>
 </resources>

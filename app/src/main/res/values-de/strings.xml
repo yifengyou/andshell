@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Bearbeite Farbe %1$d</string>
   <string name="dialog_title_reset_all">Alle Farben zurücksetzen</string>
   <string name="dialog_message_reset_all">Dies wird alle 256 Farben auf ihre Standardwerte zurücksetzen Dieser Vorgang kann nicht rückgängig gemacht werden</string>
-  <string name="app_is_running">ConnectBot läuft</string>
+  <string name="app_is_running">AndShell läuft</string>
   <string name="label_red">Rot</string>
   <string name="label_green">Grün</string>
   <string name="label_blue">Blau</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Anwendungsprotokolle</string>
   <string name="copy_logs">Kopieren Sie Protokolle</string>
   <string name="logs_copied">Protokolle in die Zwischenablage kopiert</string>
-  <string name="logs_bug_report_info">Um einen Fehler zu melden kopieren Sie diese Protokolle und öffnen Sie ein neues Problem unter https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Um einen Fehler zu melden kopieren Sie diese Protokolle und öffnen Sie ein neues Problem unter https://andshell.org/bug</string>
   <string name="no_logs_available">Keine Protokolle verfügbar</string>
   <string name="help_section_about">Über</string>
   <string name="title_contact">Kontakt und Support</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Authentifizierung beim Start</string>
   <string name="pref_auth_on_launch_summary">Fordern Sie bei der Öffnung der App einen Fingerabdruck, eine Gesichtserkennung oder eine Geräte-PIN an</string>
   <string name="pref_security_category">Sicherheit</string>
-  <string name="auth_screen_title">ConnectBot ist gesperrt</string>
+  <string name="auth_screen_title">AndShell ist gesperrt</string>
   <string name="auth_screen_unlock_button">Tippen Sie, um zu entsperren</string>
-  <string name="auth_prompt_title">ConnectBot entsperren</string>
+  <string name="auth_prompt_title">AndShell entsperren</string>
   <string name="auth_prompt_subtitle">Bestätigen Sie Ihre Identität, um fortzufahren</string>
   <string name="pref_language_download" tools:machine_translated="true">Sprachpaket herunterladen</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Download fehlgeschlagen. Zum Wiederholen tippen.</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Benachrichtigungen über Terminalsignale und Verbindungsverluste anzeigen</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Die Benachrichtigungen über Verbindungsstatus sind deaktiviert. Die Unterstützung für Verbindungen im Hintergrund bleibt aktiviert.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android steuert die Sichtbarkeit der Benachrichtigung über die aktuelle Verbindung, unabhängig von den Verbindungswarnungen.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android hat die Benachrichtigungen für ConnectBot blockiert. Die Unterstützung für Verbindungen im Hintergrund ist weiterhin aktiviert.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android hat die Benachrichtigungen für AndShell blockiert. Die Unterstützung für Verbindungen im Hintergrund ist weiterhin aktiviert.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Verbindungsbenachrichtigungen</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Erlaube Benachrichtigungen, um verbundene Hosts anzuzeigen und Warnmeldungen für Terminalsignale und Verbindungsverluste zu erhalten. Auch ohne diese Berechtigung können Verbindungen weiterhin im Hintergrund ausgeführt werden.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Benachrichtigungen aktivieren</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktivieren Sie Benachrichtigungen für ConnectBot in den Android-Einstellungen, um eine Liste der verbundenen Hosts anzuzeigen und Benachrichtigungen über Terminalsignale und Verbindungsverluste zu erhalten. Die Unterstützung für Verbindungen im Hintergrund bleibt aktiviert.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktivieren Sie Benachrichtigungen für AndShell in den Android-Einstellungen, um eine Liste der verbundenen Hosts anzuzeigen und Benachrichtigungen über Terminalsignale und Verbindungsverluste zu erhalten. Die Unterstützung für Verbindungen im Hintergrund bleibt aktiviert.</string>
 </resources>

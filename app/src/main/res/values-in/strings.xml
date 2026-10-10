@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Edit Warna %1$d</string>
   <string name="dialog_title_reset_all">Atur Ulang Semua Warna?</string>
   <string name="dialog_message_reset_all">Ini akan mengatur ulang semua 256 warna ke nilai bawaannya. Tindakan ini tidak dapat dibatalkan.</string>
-  <string name="app_is_running">ConnectBot sedang berjalan</string>
+  <string name="app_is_running">AndShell sedang berjalan</string>
   <string name="label_red">Merah</string>
   <string name="label_green">Hijau</string>
   <string name="label_blue">Biru</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Catatan Aplikasi</string>
   <string name="copy_logs">Salin Log</string>
   <string name="logs_copied">Log disalin ke papan klip</string>
-  <string name="logs_bug_report_info">Untuk melaporkan bug, salin log ini dan buka laporan baru di https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Untuk melaporkan bug, salin log ini dan buka laporan baru di https://andshell.org/bug</string>
   <string name="no_logs_available">Tidak ada log yang tersedia</string>
   <string name="help_section_about">Tentang</string>
   <string name="title_contact">Hubungi &amp; Dukungan</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Autentikasi saat peluncuran</string>
   <string name="pref_auth_on_launch_summary">Meminta sidik jari, pemindaian wajah, atau PIN perangkat saat membuka aplikasi</string>
   <string name="pref_security_category">Keamanan</string>
-  <string name="auth_screen_title">ConnectBot terkunci</string>
+  <string name="auth_screen_title">AndShell terkunci</string>
   <string name="auth_screen_unlock_button">Ketuk untuk membuka kunci</string>
-  <string name="auth_prompt_title">Buka kunci ConnectBot</string>
+  <string name="auth_prompt_title">Buka kunci AndShell</string>
   <string name="auth_prompt_subtitle">Verifikasi identitas Anda untuk melanjutkan</string>
   <string name="pref_language_download" tools:machine_translated="true">Unduh paket bahasa</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Pengunduhan gagal, ketuk untuk mencoba lagi</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Tampilkan notifikasi suara dan peringatan kehilangan koneksi.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Notifikasi koneksi dinonaktifkan. Dukungan koneksi latar belakang tetap aktif.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android mengontrol tampilan notifikasi koneksi yang sedang berlangsung, terlepas dari notifikasi peringatan koneksi.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android telah memblokir notifikasi untuk ConnectBot. Dukungan koneksi latar belakang tetap diaktifkan.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android telah memblokir notifikasi untuk AndShell. Dukungan koneksi latar belakang tetap diaktifkan.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Notifikasi koneksi</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Izinkan notifikasi agar Anda dapat melihat perangkat yang terhubung dan menerima peringatan tentang suara terminal serta terputusnya koneksi. Koneksi tetap dapat berjalan di latar belakang meskipun izin ini tidak diberikan.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Aktifkan notifikasi</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktifkan notifikasi untuk ConnectBot di pengaturan Android untuk melihat perangkat yang terhubung dan menerima peringatan tentang suara terminal serta terputusnya koneksi. Dukungan untuk koneksi latar belakang tetap aktif.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Aktifkan notifikasi untuk AndShell di pengaturan Android untuk melihat perangkat yang terhubung dan menerima peringatan tentang suara terminal serta terputusnya koneksi. Dukungan untuk koneksi latar belakang tetap aktif.</string>
 </resources>

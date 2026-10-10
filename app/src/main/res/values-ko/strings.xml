@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">색상 편집 %1$d</string>
   <string name="dialog_title_reset_all">모든 색상을 초기화합니까?</string>
   <string name="dialog_message_reset_all">이 작업은 모든 256色的 색상을 기본값으로 재설정합니다. 이 동작은 실행 취소할 수 없습니다.</string>
-  <string name="app_is_running">ConnectBot 실행 중</string>
+  <string name="app_is_running">AndShell 실행 중</string>
   <string name="label_red">레드</string>
   <string name="label_green">그린</string>
   <string name="label_blue">블루</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">어플리케이션 로그</string>
   <string name="copy_logs">로그 복사하기</string>
   <string name="logs_copied">클립보드로 로그 복사됨</string>
-  <string name="logs_bug_report_info">버그를報告하려면 이러한 로그를 복사하고 https://connectbot.org/bug에서 새로운 문제를 열어주세요</string>
+  <string name="logs_bug_report_info">버그를報告하려면 이러한 로그를 복사하고 https://andshell.org/bug에서 새로운 문제를 열어주세요</string>
   <string name="no_logs_available">로그가 사용할 수 없음</string>
   <string name="help_section_about">앱에 관하여</string>
   <string name="title_contact">문의 및 지원</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">\"앱 실행 시 인증\"</string>
   <string name="pref_auth_on_launch_summary">앱을 실행할 때 지문, 얼굴 인식 또는 기기 PIN을 요구합니다</string>
   <string name="pref_security_category">보안</string>
-  <string name="auth_screen_title">ConnectBot이 잠겨 있습니다</string>
+  <string name="auth_screen_title">AndShell이 잠겨 있습니다</string>
   <string name="auth_screen_unlock_button">\"잠금 해제하려면 탭하세요\"</string>
-  <string name="auth_prompt_title">ConnectBot 잠금 해제</string>
+  <string name="auth_prompt_title">AndShell 잠금 해제</string>
   <string name="auth_prompt_subtitle">계속하려면 본인 정보를 확인하세요</string>
   <string name="pref_language_download" tools:machine_translated="true">언어팩 다운로드</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">다운로드에 실패했습니다. 다시 시도하려면 탭하세요</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">터미널 벨 소리와 연결 끊김 알림을 표시합니다.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">연결 알림이 꺼져 있습니다. 백그라운드 연결 지원은 계속 활성화됩니다.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android는 연결 알림과 별개로 현재 연결 상태 알림의 표시 여부를 제어합니다.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android에서 ConnectBot의 알림을 차단했습니다. 백그라운드 연결 지원은 계속 활성화됩니다.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android에서 AndShell의 알림을 차단했습니다. 백그라운드 연결 지원은 계속 활성화됩니다.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">연결 알림</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">알림을 허용하면 연결된 호스트를 확인하고 터미널 벨 소리와 연결 끊김 알림을 받을 수 있습니다. 이 권한을 허용하지 않아도 연결은 백그라운드에서 계속 실행될 수 있습니다.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">알림 사용</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Android 설정에서 ConnectBot의 알림을 활성화하여 연결된 호스트를 확인하고 터미널 벨 소리와 연결 끊김 알림을 받으세요. 백그라운드 연결 지원은 계속 활성화됩니다.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Android 설정에서 AndShell의 알림을 활성화하여 연결된 호스트를 확인하고 터미널 벨 소리와 연결 끊김 알림을 받으세요. 백그라운드 연결 지원은 계속 활성화됩니다.</string>
 </resources>

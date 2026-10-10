@@ -18,7 +18,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Add richer session notifications, connection loss alerts, and per-session terminal bell muting
 
 ### Fixed
-- Show bell notifications only while ConnectBot is not visible, and route bells through the currently visible console
+- Show bell notifications only while AndShell is not visible, and route bells through the currently visible console
 - Keep the console visible when the network drops and correctly detect VPN connectivity while reconnecting
 - Correctly copy terminal selections, including selections that cross the scrollback boundary
 - Improve IME input handling for Hangul, backspaces, wide characters, cursor context, and paste actions
@@ -49,7 +49,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Correct Indonesian SSH terminology and other machine and human translation errors
 
 ### Dependencies
-- Update ConnectBot termlib from 0.1.0 to 0.3.11
+- Update AndShell termlib from 0.1.0 to 0.3.11
 
 ## [1.10.9][1.10.9]
 
@@ -190,7 +190,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Changed
 - Migrated database to Room
 - Converted build system and codebase to Kotlin
-- Updated terminal library; now using ConnectBot's termlib (w/ libvterm)
+- Updated terminal library; now using AndShell's termlib (w/ libvterm)
 - Updated to new SSH library; now supports Post-Quantum Cryptography ML-KEM
 - Public Key list now uses a FAB menu
 - Allow multiple known keys per host to support key migration
@@ -369,12 +369,12 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - ECDH would sometimes fail because the shared secret would be encoded
   as a negative integer.
 - DSA host key support was broken from the beginning of the v1.8 series.
-- Connections would sometimes close when leaving ConnectBot.
+- Connections would sometimes close when leaving AndShell.
 - Telnet port range too high will no longer cause crashes.
 
 ### Added
 - More context is given for failures to connect via SSH which should
-  reveal why a host might be incompatible with ConnectBot.
+  reveal why a host might be incompatible with AndShell.
 - SSH key exchange algorithm will now be printed upon connection.
 - All addresses for a particular host will be tried when connecting
   (including IPv6).

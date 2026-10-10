@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">Editează culoarea %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">Resetați toate culorile?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">Această acțiune va reseta toate cele 256 de culori la valorile lor implicite. Această operație nu poate fi anulată.</string>
-  <string name="app_is_running" tools:machine_translated="true">ConnectBot este în funcțiune</string>
+  <string name="app_is_running" tools:machine_translated="true">AndShell este în funcțiune</string>
   <string name="label_red" tools:machine_translated="true">Roșu</string>
   <string name="label_green" tools:machine_translated="true">Verde</string>
   <string name="label_blue" tools:machine_translated="true">Albastru</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Jurnalele aplicației</string>
   <string name="copy_logs" tools:machine_translated="true">Copiază jurnalele</string>
   <string name="logs_copied" tools:machine_translated="true">Înregistrările au fost copiate în clipboard.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Pentru a raporta o eroare, copiați aceste jurnale și deschideți o nouă solicitare pe https://connectbot.org/bug.</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Pentru a raporta o eroare, copiați aceste jurnale și deschideți o nouă solicitare pe https://andshell.org/bug.</string>
   <string name="no_logs_available" tools:machine_translated="true">Nu sunt disponibile înregistrări.</string>
   <string name="help_section_about" tools:machine_translated="true">Despre</string>
   <string name="title_contact" tools:machine_translated="true">Contact și asistență</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Autentificare la pornire</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Solicită utilizarea amprentei, a recunoașterii faciale sau a codului PIN al dispozitivului la deschiderea aplicației.</string>
   <string name="pref_security_category" tools:machine_translated="true">Securitate</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot este blocat.</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell este blocat.</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Atingeți pentru a debloca.</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Deblochează ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Deblochează AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Verificați-vă identitatea pentru a continua.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Mesaj de autentificare de la %1$s.</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Mesaj de autentificare:</string>
@@ -693,9 +693,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Afișează semnalele sonore și alertele privind pierderea conexiunii.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Alertele privind conexiunea sunt dezactivate. Suportul pentru conexiunea în fundal rămâne activat.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android controlează vizibilitatea notificării privind conexiunea activă, independent de alertele de conexiune.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android a blocat notificările pentru ConnectBot. Suportul pentru conexiunile în fundal rămâne activat.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android a blocat notificările pentru AndShell. Suportul pentru conexiunile în fundal rămâne activat.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Notificări privind conexiunea</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Permiteți notificările pentru a vedea dispozitivele conectate și pentru a primi alerte privind sunetul de semnal și pierderea conexiunii. Conexiunile pot continua să funcționeze în fundal chiar și fără această permisiune.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Activează notificările.</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activați notificările pentru ConnectBot în setările Android pentru a vedea dispozitivele conectate și pentru a primi alerte privind sunetul terminalului și pierderea conexiunii. Suportul pentru conexiunile în fundal rămâne activat.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activați notificările pentru AndShell în setările Android pentru a vedea dispozitivele conectate și pentru a primi alerte privind sunetul terminalului și pierderea conexiunii. Suportul pentru conexiunile în fundal rămâne activat.</string>
 </resources>

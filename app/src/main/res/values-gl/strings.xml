@@ -169,7 +169,7 @@
   <string name="notification_text">%1$s require a túa atención.</string>
   <string name="no">Non</string>
   <string name="yes">Si</string>
-  <string name="app_is_running">ConnectBot está en execución</string>
+  <string name="app_is_running">AndShell está en execución</string>
   <string name="image_description_connected">Conectado.</string>
   <string name="image_description_disconnected">Desconectado.</string>
   <string name="image_description_toggle_control_character">Mudar carácter de control</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Rexistros da aplicación</string>
   <string name="copy_logs" tools:machine_translated="true">Copiar rexistros</string>
   <string name="logs_copied" tools:machine_translated="true">Os rexistros foron copiados ao portapapeles.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Para informar dun erro, copie estes rexistros e abra un novo informe en https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Para informar dun erro, copie estes rexistros e abra un novo informe en https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Non hai rexistros dispoñibles</string>
   <string name="help_section_about" tools:machine_translated="true">Sobre</string>
   <string name="title_contact" tools:machine_translated="true">Contacto e asistencia</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Autenticación ao iniciar a aplicación</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Require a pegada, o recoñecemento facial ou un código PIN do dispositivo ao abrir a aplicación.</string>
   <string name="pref_security_category" tools:machine_translated="true">Seguridade</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot está bloqueado</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell está bloqueado</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Toca para desbloquear</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Desbloquear ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Desbloquear AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Verifica a túa identidade para continuar.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Mensaxe de autenticación proveniente de %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Mensaxe de autenticación:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Mostrar alertas de son de terminal e de perda de conexión.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">As alertas de conexión están desactivadas. O soporte para a conexión en segundo plano permanece activado.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android controla a visibilidade da notificación da conexión activa, independentemente das alertas de conexión.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android bloqueou as notificacións de ConnectBot. O soporte para a conexión en segundo plano permanece activado.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android bloqueou as notificacións de AndShell. O soporte para a conexión en segundo plano permanece activado.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Notificacións de conexión</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Permite as notificacións para ver os dispositivos conectados e recibir alertas de son e de perda de conexión. As conexións aínda poden funcionar en segundo plano sen este permiso.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Activar as notificacións</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activa as notificacións para ConnectBot na configuración de Android para ver os dispositivos conectados e recibir alertas de son e desconexión. O soporte para a conexión en segundo plano permanece activado.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activa as notificacións para AndShell na configuración de Android para ver os dispositivos conectados e recibir alertas de son e desconexión. O soporte para a conexión en segundo plano permanece activado.</string>
 </resources>

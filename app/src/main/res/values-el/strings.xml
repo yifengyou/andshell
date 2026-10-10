@@ -170,7 +170,7 @@
   <string name="notification_text">%1$s θέλει την προσοχή σας.</string>
   <string name="no">Όχι</string>
   <string name="yes">Ναι</string>
-  <string name="app_is_running">Εκτελείται το ConnectBot</string>
+  <string name="app_is_running">Εκτελείται το AndShell</string>
   <string name="image_description_connected">Έγινε σύνδεση.</string>
   <string name="image_description_disconnected">Αποσυνδέθηκε.</string>
   <string name="image_description_toggle_control_character">Εναλλαγή χαρακτήρα ελέγχου.</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Αρχεία καταγραφής εφαρμογών</string>
   <string name="copy_logs" tools:machine_translated="true">Αντιγραφή αρχείων καταγραφής</string>
   <string name="logs_copied" tools:machine_translated="true">Τα αρχεία καταγραφής αντιγράφηκαν στο πρόχειρο.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Για να αναφέρετε ένα σφάλμα, αντιγράψτε αυτά τα αρχεία καταγραφής και δημιουργήστε ένα νέο αίτημα στην ιστοσελίδα https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Για να αναφέρετε ένα σφάλμα, αντιγράψτε αυτά τα αρχεία καταγραφής και δημιουργήστε ένα νέο αίτημα στην ιστοσελίδα https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Δεν υπάρχουν διαθέσιμα αρχεία καταγραφής.</string>
   <string name="help_section_about" tools:machine_translated="true">Σχετικά με</string>
   <string name="title_contact" tools:machine_translated="true">Επικοινωνία και Υποστήριξη</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Έλεγχος ταυτότητας κατά την εκκίνηση</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Απαιτείται η χρήση δακτυλικού αποτυπώματος, αναγνώρισης προσώπου ή κωδικού PIN της συσκευής κατά το άνοιγμα της εφαρμογής.</string>
   <string name="pref_security_category" tools:machine_translated="true">Ασφάλεια</string>
-  <string name="auth_screen_title" tools:machine_translated="true">Το ConnectBot είναι κλειδωμένο.</string>
+  <string name="auth_screen_title" tools:machine_translated="true">Το AndShell είναι κλειδωμένο.</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Πατήστε για να ξεκλειδώσετε</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Ξεκλειδώστε το ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Ξεκλειδώστε το AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Επαληθεύστε την ταυτότητά σας για να συνεχίσετε.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Μήνυμα αυθεντικοποίησης από το %1$s.</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Μήνυμα αυθεντικοποίησης:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Εμφάνιση ηχητικού σήματος τερματικού και ειδοποιήσεων για απώλεια σύνδεσης.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Οι ειδοποιήσεις για τη σύνδεση είναι απενεργοποιημένες. Η υποστήριξη για τη σύνδεση στο παρασκήνιο παραμένει ενεργοποιημένη.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Το Android διαχειρίζεται την εμφάνιση της ειδοποίησης για την τρέχουσα σύνδεση, ανεξάρτητα από τις ειδοποιήσεις που σχετίζονται με τη σύνδεση.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Το Android έχει αποκλείσει τις ειδοποιήσεις για το ConnectBot. Η υποστήριξη για συνδέσεις στο παρασκήνιο παραμένει ενεργοποιημένη.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Το Android έχει αποκλείσει τις ειδοποιήσεις για το AndShell. Η υποστήριξη για συνδέσεις στο παρασκήνιο παραμένει ενεργοποιημένη.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Ειδοποιήσεις σύνδεσης</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Επιτρέψτε τις ειδοποιήσεις για να βλέπετε τις συνδεδεμένες συσκευές και να λαμβάνετε ειδοποιήσεις για ηχητικά σήματα και διακοπές σύνδεσης. Οι συνδέσεις μπορούν να συνεχίσουν να λειτουργούν στο παρασκήνιο ακόμη και χωρίς αυτήν την άδεια.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Ενεργοποίηση ειδοποιήσεων</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Ενεργοποιήστε τις ειδοποιήσεις για το ConnectBot στις ρυθμίσεις του Android, ώστε να βλέπετε τις συνδεδεμένες συσκευές και να λαμβάνετε ειδοποιήσεις για ηχητικά σήματα τερματικού και για διακοπή σύνδεσης. Η υποστήριξη για συνδέσεις στο παρασκήνιο παραμένει ενεργοποιημένη.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Ενεργοποιήστε τις ειδοποιήσεις για το AndShell στις ρυθμίσεις του Android, ώστε να βλέπετε τις συνδεδεμένες συσκευές και να λαμβάνετε ειδοποιήσεις για ηχητικά σήματα τερματικού και για διακοπή σύνδεσης. Η υποστήριξη για συνδέσεις στο παρασκήνιο παραμένει ενεργοποιημένη.</string>
 </resources>

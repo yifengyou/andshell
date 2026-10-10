@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Éditer la couleur %1$d</string>
   <string name="dialog_title_reset_all">Réinitialiser toutes les couleurs</string>
   <string name="dialog_message_reset_all">Ceci réinitialisera les 256 couleurs à leurs valeurs par défaut Cette action ne peut pas être annulée</string>
-  <string name="app_is_running">ConnectBot est en cours</string>
+  <string name="app_is_running">AndShell est en cours</string>
   <string name="label_red">Rouge</string>
   <string name="label_green">Vert</string>
   <string name="label_blue">Bleu</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Journaux d\'application</string>
   <string name="copy_logs">Copier les journaux</string>
   <string name="logs_copied">Journaux copiés dans le presse-papiers</string>
-  <string name="logs_bug_report_info">Pour signaler un bogue copiez ces journaux et ouvrez une nouvelle question à https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Pour signaler un bogue copiez ces journaux et ouvrez une nouvelle question à https://andshell.org/bug</string>
   <string name="no_logs_available">Aucuns journaux disponibles</string>
   <string name="help_section_about">A propos</string>
   <string name="title_contact">Contact et assistance</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Authentification au démarrage</string>
   <string name="pref_auth_on_launch_summary">Exigez une empreinte digitale, la reconnaissance faciale ou le code PIN de l\'appareil lors de l\'ouverture de l\'application</string>
   <string name="pref_security_category">Sécurité</string>
-  <string name="auth_screen_title">ConnectBot est verrouillé</string>
+  <string name="auth_screen_title">AndShell est verrouillé</string>
   <string name="auth_screen_unlock_button">Appuyez pour déverrouiller</string>
-  <string name="auth_prompt_title">Déverrouillez ConnectBot</string>
+  <string name="auth_prompt_title">Déverrouillez AndShell</string>
   <string name="auth_prompt_subtitle">Vérifiez votre identité pour continuer</string>
   <string name="pref_language_download" tools:machine_translated="true">Télécharger le pack linguistique</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Le téléchargement a échoué, appuyez pour réessayer.</string>
@@ -693,9 +693,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Afficher les alertes de sonnerie du terminal et de perte de connexion</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Les alertes de connexion sont désactivées. Le support de la connexion en arrière-plan reste activé.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android gère l’affichage de la notification concernant la connexion en cours, indépendamment des alertes de connexion.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android a bloqué les notifications pour ConnectBot. La prise en charge des connexions en arrière-plan reste activée.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android a bloqué les notifications pour AndShell. La prise en charge des connexions en arrière-plan reste activée.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Notifications de connexion</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Autorisez les notifications pour afficher les hôtes connectés et recevoir des alertes concernant les signaux sonores du terminal et les pertes de connexion. Les connexions peuvent toujours fonctionner en arrière-plan, même sans cette autorisation.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Activer les notifications</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activez les notifications pour ConnectBot dans les paramètres Android afin de voir les hôtes connectés et de recevoir des alertes concernant les signaux sonores du terminal et les pertes de connexion. La prise en charge des connexions en arrière-plan reste activée.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activez les notifications pour AndShell dans les paramètres Android afin de voir les hôtes connectés et de recevoir des alertes concernant les signaux sonores du terminal et les pertes de connexion. La prise en charge des connexions en arrière-plan reste activée.</string>
 </resources>

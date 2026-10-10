@@ -1,7 +1,7 @@
 /*
- * Mosh support for ConnectBot
+ * Mosh support for AndShell
  * Copyright 2012 Daniel Drown (transport layer)
- * ConnectBot integration by bqv (Tony O)
+ * AndShell integration by bqv (Tony O)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

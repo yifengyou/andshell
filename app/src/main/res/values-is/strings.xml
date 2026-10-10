@@ -108,7 +108,7 @@
   <string name="notification_text">%1$s krefst athygli þinnar.</string>
   <string name="no">Nei</string>
   <string name="yes">Já</string>
-  <string name="app_is_running">ConnectBot er í gangi</string>
+  <string name="app_is_running">AndShell er í gangi</string>
   <string name="app_desc" tools:machine_translated="true">Einfaldur, öflugur og opinn SSH-viðmótsforrit.</string>
   <string name="app_copyright" tools:machine_translated="true">Höfundarréttur © Kenny Root</string>
   <string name="title_eula" tools:machine_translated="true">Leyfi</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Forritaskrár</string>
   <string name="copy_logs" tools:machine_translated="true">Afrita kerfislogga</string>
   <string name="logs_copied" tools:machine_translated="true">Skrár afritaðar í klippiborðið.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Til að tilkynna um villu, kopieraðu þessi kerfislog og opnaðu nýja fyrirspurn á https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Til að tilkynna um villu, kopieraðu þessi kerfislog og opnaðu nýja fyrirspurn á https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Engar skrár fundust.</string>
   <string name="help_section_about" tools:machine_translated="true">Um</string>
   <string name="title_contact" tools:machine_translated="true">Hafðu samband og fáðu aðstoð</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Staðfesting við upphaf</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Krefst þess að notandi noti fingrafar, andlitsþekkingarforrit eða PIN-númer tækisins þegar hann opnar appið.</string>
   <string name="pref_security_category" tools:machine_translated="true">Öryggi</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot er læst</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell er læst</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Snertu til að opna.</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Opna ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Opna AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Staðfestu auðkenni þitt til að halda áfram</string>
   <string name="auth_banner_title" tools:machine_translated="true">Staðfestingarskilaboð frá %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Skilaboð um auðkenningu:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Sýna viðvörunartákn fyrir tengsl og tilkynna um tengslatruflanir.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Viðvaranir um tengingar eru slökktar. Stuðningur við tengingar í bakgrunni er enn virkur.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android stýrir því hvort tilkynning um virka tengingu sé sýnileg, óháð því hvort tengislíkindi séu virk eða ekki.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android hefur hindrað tilkynningar frá ConnectBot. Stuðningur við bakgrunntengingar er enn virkur.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android hefur hindrað tilkynningar frá AndShell. Stuðningur við bakgrunntengingar er enn virkur.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Tilkynningar um tengingu</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Leyfðu tilkynningum að sýna tengda tæki og senda tilkynningar um hljóð og tengisrof. Tengingar geta samt virkað í bakgrunni, jafnvel þó þessi leyfi sé ekki veitt.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Virkaðu fyrir tilkynningum</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Virktu valkostinn um tilkynningar fyrir ConnectBot í stillingum Android til að sjá tengda tæki og fá tilkynningar um hljóð og tengisrof. Stuðningur við tengingu í bakgrunni er enn virkur.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Virktu valkostinn um tilkynningar fyrir AndShell í stillingum Android til að sjá tengda tæki og fá tilkynningar um hljóð og tengisrof. Stuðningur við tengingu í bakgrunni er enn virkur.</string>
 </resources>

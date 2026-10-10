@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Editar color %1$d</string>
   <string name="dialog_title_reset_all">¿Reiniciar todos los colores?</string>
   <string name="dialog_message_reset_all">Esto restablecerá los 256 colores a sus valores predeterminados. Esta acción no se puede deshacer.</string>
-  <string name="app_is_running">ConnectBot está ejecutándose</string>
+  <string name="app_is_running">AndShell está ejecutándose</string>
   <string name="label_red">Rojo</string>
   <string name="label_green">Verde</string>
   <string name="label_blue">Azul</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Registros de la aplicación</string>
   <string name="copy_logs">Copiar registros</string>
   <string name="logs_copied">Registros copiados al portapapeles</string>
-  <string name="logs_bug_report_info">Para informar de un error copia estos registros y abre una nueva incidencia en https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Para informar de un error copia estos registros y abre una nueva incidencia en https://andshell.org/bug</string>
   <string name="no_logs_available">No registros disponibles</string>
   <string name="help_section_about">Acerca de</string>
   <string name="title_contact">Contacto y asistencia</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Autenticación al inicio</string>
   <string name="pref_auth_on_launch_summary">Solicite la huella dactilar, el reconocimiento facial o el PIN del dispositivo al abrir la aplicación</string>
   <string name="pref_security_category">Seguridad</string>
-  <string name="auth_screen_title">ConnectBot está bloqueado</string>
+  <string name="auth_screen_title">AndShell está bloqueado</string>
   <string name="auth_screen_unlock_button">Toca para desbloquear</string>
-  <string name="auth_prompt_title">Desbloquee ConnectBot</string>
+  <string name="auth_prompt_title">Desbloquee AndShell</string>
   <string name="auth_prompt_subtitle">Verifique su identidad para continuar</string>
   <string name="pref_language_download" tools:machine_translated="true">Descargar paquete de idioma</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">La descarga falló, toque para intentarlo de nuevo.</string>
@@ -693,9 +693,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Mostrar alertas de sonido de terminal y de pérdida de conexión.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Las alertas de conexión están desactivadas. El soporte para la conexión en segundo plano permanece habilitado.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android controla la visibilidad de la notificación de la conexión activa, independientemente de las alertas de conexión.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ha bloqueado las notificaciones de ConnectBot. La función de conexión en segundo plano sigue activada.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ha bloqueado las notificaciones de AndShell. La función de conexión en segundo plano sigue activada.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Notificaciones de conexión</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Permite recibir notificaciones para ver los dispositivos conectados y recibir alertas sobre el sonido de la terminal y la pérdida de conexión. Las conexiones aún pueden ejecutarse en segundo plano sin este permiso.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Activar las notificaciones</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activa las notificaciones para ConnectBot en la configuración de Android para ver los dispositivos conectados y recibir alertas sobre el sonido de la terminal y la pérdida de conexión. El soporte para la conexión en segundo plano permanece activado.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Activa las notificaciones para AndShell en la configuración de Android para ver los dispositivos conectados y recibir alertas sobre el sonido de la terminal y la pérdida de conexión. El soporte para la conexión en segundo plano permanece activado.</string>
 </resources>

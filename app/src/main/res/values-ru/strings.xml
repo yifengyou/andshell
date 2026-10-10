@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Редактировать цвет %1$d</string>
   <string name="dialog_title_reset_all">Сбросить все цвета?</string>
   <string name="dialog_message_reset_all">Это приведет к сбросу всех 256 цветов к их значениям по умолчанию. Это действие нельзя отменить.</string>
-  <string name="app_is_running">ConnectBot запущен</string>
+  <string name="app_is_running">AndShell запущен</string>
   <string name="label_red">Красный</string>
   <string name="label_green">Зеленый</string>
   <string name="label_blue">Синий</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Журналы приложения</string>
   <string name="copy_logs">Копировать журналы</string>
   <string name="logs_copied">Журналы скопированы в буфер обмена</string>
-  <string name="logs_bug_report_info">Чтобы сообщить об ошибке скопируйте эти логи и откройте новое сообщение на https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Чтобы сообщить об ошибке скопируйте эти логи и откройте новое сообщение на https://andshell.org/bug</string>
   <string name="no_logs_available">Нет доступных журналов</string>
   <string name="help_section_about">О программе</string>
   <string name="title_contact">Контакты и поддержка</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Аутентификация при запуске</string>
   <string name="pref_auth_on_launch_summary">Требуйте ввод отпечатка пальца, распознавание лица или PIN-код устройства при запуске приложения</string>
   <string name="pref_security_category">Безопасность</string>
-  <string name="auth_screen_title">ConnectBot заблокирован</string>
+  <string name="auth_screen_title">AndShell заблокирован</string>
   <string name="auth_screen_unlock_button">Нажмите, чтобы разблокировать</string>
-  <string name="auth_prompt_title">Разблокируйте ConnectBot</string>
+  <string name="auth_prompt_title">Разблокируйте AndShell</string>
   <string name="auth_prompt_subtitle">Подтвердите свою личность, чтобы продолжить</string>
   <string name="pref_language_download" tools:machine_translated="true">Загрузить языковой пакет</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Загрузка не удалась, нажмите, чтобы повторить попытку.</string>
@@ -697,9 +697,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Отображать звуковой сигнал терминала и уведомления об отключении соединения.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Уведомления о подключении отключены. Поддержка фонового подключения остается включенной.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">В Android отображение уведомления об активном соединении контролируется независимо от уведомлений о состоянии соединения.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">В Android заблокированы уведомления для ConnectBot. Поддержка фонового подключения остается включенной.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">В Android заблокированы уведомления для AndShell. Поддержка фонового подключения остается включенной.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Уведомления о подключении</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Разрешите получение уведомлений, чтобы видеть список подключенных устройств и получать оповещения о звуковом сигнале терминала и разрыве соединения. Даже без этого разрешения подключения могут продолжать работать в фоновом режиме.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Разрешить уведомления</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Включите уведомления для ConnectBot в настройках Android, чтобы видеть список подключенных устройств и получать оповещения о звуковом сигнале терминала и разрыве соединения. Поддержка фонового подключения остается включенной.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Включите уведомления для AndShell в настройках Android, чтобы видеть список подключенных устройств и получать оповещения о звуковом сигнале терминала и разрыве соединения. Поддержка фонового подключения остается включенной.</string>
 </resources>

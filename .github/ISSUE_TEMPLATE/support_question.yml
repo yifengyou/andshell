@@ -1,5 +1,5 @@
 name: Support question
-description: Ask a question about how to use ConnectBot
+description: Ask a question about how to use AndShell
 labels: ["question"]
 body:
   - type: markdown
@@ -8,9 +8,9 @@ body:
         Thanks for reaching out! Please provide details about your environment and question so we can help you effectively.
 
   - type: input
-    id: connectbot-version
+    id: andshell-version
     attributes:
-      label: ConnectBot version
+      label: AndShell version
       description: You can find this in the app under Menu > Help > About.
       placeholder: "1.9.10"
     validations:

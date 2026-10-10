@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">แก้ไขสี %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">ต้องการรีเซ็ตสีทั้งหมดหรือไม่?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">การดำเนินการนี้จะรีเซ็ตสีทั้งหมด 256 สีให้กลับไปเป็นค่าเริ่มต้น และไม่สามารถยกเลิกการดำเนินการนี้ได้.</string>
-  <string name="app_is_running" tools:machine_translated="true">ConnectBot กำลังทำงาน</string>
+  <string name="app_is_running" tools:machine_translated="true">AndShell กำลังทำงาน</string>
   <string name="label_red" tools:machine_translated="true">สีแดง</string>
   <string name="label_green" tools:machine_translated="true">สีเขียว</string>
   <string name="label_blue" tools:machine_translated="true">สีน้ำเงิน</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">บันทึกการทำงานของแอปพลิเคชัน</string>
   <string name="copy_logs" tools:machine_translated="true">คัดลอกบันทึก</string>
   <string name="logs_copied" tools:machine_translated="true">คัดลอกบันทึกไปยังคลิปบอร์ดแล้ว</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">หากต้องการรายงานข้อผิดพลาด โปรดคัดลอกข้อมูลบันทึกเหล่านี้ และเปิดรายงานปัญหาใหม่ได้ที่ https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">หากต้องการรายงานข้อผิดพลาด โปรดคัดลอกข้อมูลบันทึกเหล่านี้ และเปิดรายงานปัญหาใหม่ได้ที่ https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">ไม่มีข้อมูลบันทึก</string>
   <string name="help_section_about" tools:machine_translated="true">เกี่ยวกับ</string>
   <string name="title_contact" tools:machine_translated="true">ติดต่อและขอความช่วยเหลือ</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">การยืนยันตัวตนเมื่อเปิดใช้งาน</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">กำหนดให้ต้องใช้ลายนิ้วมือ, การจดจำใบหน้า หรือรหัส PIN ของอุปกรณ์ เมื่อเปิดแอป</string>
   <string name="pref_security_category" tools:machine_translated="true">การรักษาความปลอดภัย</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot ถูกล็อกแล้ว</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell ถูกล็อกแล้ว</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">แตะเพื่อปลดล็อก</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">ปลดล็อก ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">ปลดล็อก AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">ยืนยันตัวตนของคุณเพื่อดำเนินการต่อ</string>
   <string name="auth_banner_title" tools:machine_translated="true">ข้อความยืนยันตัวตนจาก %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] ข้อความยืนยันตัวตน:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">แสดงการแจ้งเตือนเมื่อมีการเชื่อมต่อขาดหายไป และแสดงสัญญาณเสียงเมื่อมีข้อความแจ้งเตือน</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">ปิดการแจ้งเตือนเกี่ยวกับการเชื่อมต่อแล้ว แต่การรองรับการเชื่อมต่อในเบื้องหลังยังคงเปิดใช้งานอยู่</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">ระบบปฏิบัติการ Android จะควบคุมการแสดงผลของการแจ้งเตือนเกี่ยวกับการเชื่อมต่อที่ใช้งานอยู่ โดยไม่ขึ้นอยู่กับการแจ้งเตือนเกี่ยวกับการเชื่อมต่อแบบอื่น</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ได้ปิดกั้นการแจ้งเตือนสำหรับ ConnectBot แต่การเชื่อมต่อแบบเบื้องหลังยังคงเปิดใช้งานอยู่</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android ได้ปิดกั้นการแจ้งเตือนสำหรับ AndShell แต่การเชื่อมต่อแบบเบื้องหลังยังคงเปิดใช้งานอยู่</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">การแจ้งเตือนเมื่อมีการเชื่อมต่อ</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">อนุญาตให้มีการส่งการแจ้งเตือน เพื่อให้คุณสามารถดูอุปกรณ์ที่เชื่อมต่อ และรับการแจ้งเตือนเมื่อมีการส่งสัญญาณเสียงหรือเมื่อการเชื่อมต่อขาดหายไป แม้ว่าจะไม่ได้อนุญาตนี้ การเชื่อมต่อก็ยังสามารถทำงานในเบื้องหลังได้</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">เปิดการแจ้งเตือน</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">เปิดใช้งานการแจ้งเตือนสำหรับ ConnectBot ในการตั้งค่า Android เพื่อดูรายการอุปกรณ์ที่เชื่อมต่อ และรับการแจ้งเตือนเมื่อมีการเชื่อมต่อหรือตัดการเชื่อมต่อ รวมถึงเสียงแจ้งเตือนจากเทอร์มินัล การรองรับการเชื่อมต่อในเบื้องหลังยังคงเปิดใช้งานอยู่</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">เปิดใช้งานการแจ้งเตือนสำหรับ AndShell ในการตั้งค่า Android เพื่อดูรายการอุปกรณ์ที่เชื่อมต่อ และรับการแจ้งเตือนเมื่อมีการเชื่อมต่อหรือตัดการเชื่อมต่อ รวมถึงเสียงแจ้งเตือนจากเทอร์มินัล การรองรับการเชื่อมต่อในเบื้องหลังยังคงเปิดใช้งานอยู่</string>
 </resources>

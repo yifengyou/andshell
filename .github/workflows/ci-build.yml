@@ -381,7 +381,7 @@ jobs:
   upload:
     name: Upload to GitHub releases
     needs: [verify, release, instrumentation, analysis]
-    if: ${{ inputs.is_push && (github.repository == 'connectbot/connectbot') && ((github.ref == 'refs/heads/main') || startsWith(github.ref, 'refs/tags/v')) }}
+    if: ${{ inputs.is_push && (github.repository == 'andshell/andshell') && ((github.ref == 'refs/heads/main') || startsWith(github.ref, 'refs/tags/v')) }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -416,14 +416,14 @@ jobs:
             echo "${GITHUB_TAG}: ${GITHUB_TITLE}" > release-title.txt
           fi
 
-          cp ./app/build/outputs/apk/oss/release/app-oss-release-unsigned.apk "ConnectBot-${GITHUB_TAG}-oss-unsigned.apk"
-          cp ./app/build/outputs/apk/google/release/app-google-release-unsigned.apk "ConnectBot-${GITHUB_TAG}-google-unsigned.apk"
-          cp ./app/build/outputs/bundle/googleRelease/app-google-release.aab "ConnectBot-${GITHUB_TAG}-google-unsigned.aab"
-          cp ./app/build/outputs/bundle/ossRelease/app-oss-release.aab "ConnectBot-${GITHUB_TAG}-oss-unsigned.aab"
-          cp ./app/build/outputs/native-debug-symbols/googleRelease/native-debug-symbols.zip "ConnectBot-${GITHUB_TAG}-google.native-debug-symbols.zip"
-          cp ./app/build/outputs/native-debug-symbols/ossRelease/native-debug-symbols.zip "ConnectBot-${GITHUB_TAG}-oss.native-debug-symbols.zip"
-          cp ./app/build/outputs/mapping/googleRelease/mapping.txt "ConnectBot-${GITHUB_TAG}-google.mapping.txt"
-          cp ./app/build/outputs/mapping/ossRelease/mapping.txt "ConnectBot-${GITHUB_TAG}-oss.mapping.txt"
+          cp ./app/build/outputs/apk/oss/release/app-oss-release-unsigned.apk "AndShell-${GITHUB_TAG}-oss-unsigned.apk"
+          cp ./app/build/outputs/apk/google/release/app-google-release-unsigned.apk "AndShell-${GITHUB_TAG}-google-unsigned.apk"
+          cp ./app/build/outputs/bundle/googleRelease/app-google-release.aab "AndShell-${GITHUB_TAG}-google-unsigned.aab"
+          cp ./app/build/outputs/bundle/ossRelease/app-oss-release.aab "AndShell-${GITHUB_TAG}-oss-unsigned.aab"
+          cp ./app/build/outputs/native-debug-symbols/googleRelease/native-debug-symbols.zip "AndShell-${GITHUB_TAG}-google.native-debug-symbols.zip"
+          cp ./app/build/outputs/native-debug-symbols/ossRelease/native-debug-symbols.zip "AndShell-${GITHUB_TAG}-oss.native-debug-symbols.zip"
+          cp ./app/build/outputs/mapping/googleRelease/mapping.txt "AndShell-${GITHUB_TAG}-google.mapping.txt"
+          cp ./app/build/outputs/mapping/ossRelease/mapping.txt "AndShell-${GITHUB_TAG}-oss.mapping.txt"
           cp ./app/build/outputs/app_versioning/googleRelease/version_code.txt .
           zstd -- ./*.mapping.txt
 
@@ -437,10 +437,10 @@ jobs:
             version_code.txt
             provenance-oss.json
             provenance-google.json
-            ConnectBot-*-unsigned.apk
-            ConnectBot-*-unsigned.aab
-            ConnectBot-*.native-debug-symbols.zip
-            ConnectBot-*.mapping.txt.zst
+            AndShell-*-unsigned.apk
+            AndShell-*-unsigned.aab
+            AndShell-*.native-debug-symbols.zip
+            AndShell-*.mapping.txt.zst
           if-no-files-found: error
 
       - name: Set release name
@@ -458,10 +458,10 @@ jobs:
           name: ${{ steps.name.outputs.RELEASE_TITLE }}
           generate_release_notes: true
           files: |
-            ConnectBot-*-unsigned.apk
-            ConnectBot-*-unsigned.aab
-            ConnectBot-*.native-debug-symbols.zip
-            ConnectBot-*.mapping.txt.zst
+            AndShell-*-unsigned.apk
+            AndShell-*-unsigned.aab
+            AndShell-*.native-debug-symbols.zip
+            AndShell-*.mapping.txt.zst
             version_code.txt
             provenance-oss.json
             provenance-google.json
@@ -469,7 +469,7 @@ jobs:
   signing:
     name: Trigger remote signing
     needs: upload
-    if: ${{ inputs.is_push && (github.repository == 'connectbot/connectbot') && ((github.ref == 'refs/heads/main') || startsWith(github.ref, 'refs/tags/v')) }}
+    if: ${{ inputs.is_push && (github.repository == 'andshell/andshell') && ((github.ref == 'refs/heads/main') || startsWith(github.ref, 'refs/tags/v')) }}
     runs-on: ubuntu-latest
     permissions:
       contents: read

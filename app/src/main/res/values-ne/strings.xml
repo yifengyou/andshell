@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">एप्लिकेसन लगहरू</string>
   <string name="copy_logs" tools:machine_translated="true">लॉगहरू प्रतिलिपि गर्नुहोस्</string>
   <string name="logs_copied" tools:machine_translated="true">लॉगहरू क्लिपबोर्डमा प्रतिलिपि गरियो।</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">त्रुटि रिपोर्ट गर्न, यी लगहरू प्रतिलिपि गर्नुहोस् र https://connectbot.org/bug मा नयाँ मुद्दा खोल्नुहोस्।</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">त्रुटि रिपोर्ट गर्न, यी लगहरू प्रतिलिपि गर्नुहोस् र https://andshell.org/bug मा नयाँ मुद्दा खोल्नुहोस्।</string>
   <string name="no_logs_available" tools:machine_translated="true">कुनै पनि लग उपलब्ध छैन।</string>
   <string name="help_section_about" tools:machine_translated="true">कार्यक्रमको बारेमा</string>
   <string name="title_contact" tools:machine_translated="true">सम्पर्क र सहयोग</string>

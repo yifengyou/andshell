@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Evidencije aplikacije</string>
   <string name="copy_logs" tools:machine_translated="true">Копирај дневнике</string>
   <string name="logs_copied" tools:machine_translated="true">Evidencije kopirane u привремену меморију</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Да бисте пријавили грешку, копирајте ове евиденције и отворите нови захтев на https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Да бисте пријавили грешку, копирајте ове евиденције и отворите нови захтев на https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Није доступна ниједна евиденција</string>
   <string name="help_section_about" tools:machine_translated="true">O programu</string>
   <string name="title_contact" tools:machine_translated="true">Контакт и подршка</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Аутентификација при покретању.</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Захтевајте очитавање отиска прста, препознавање лица или унос ПИН-а уређа при отварању апликације.</string>
   <string name="pref_security_category" tools:machine_translated="true">Безбедност</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot je zaključan</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell je zaključan</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Dodirnite za otključavanje</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Otključajte ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Otključajte AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Потврдите свој идентитет да бисте наставили</string>
   <string name="auth_banner_title" tools:machine_translated="true">Порука за аутентификацију од %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Порука о аутентификацији:</string>
@@ -693,9 +693,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Прикажи звучни сигнал терминала и обавештења о прекиду везе.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Обавештења о повезивању су искључена. Подршка за повезивање у позадини остаје укључена.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Андроид контролише приказ обавештења о активnoj vezi, nezavisno od upozorenja o vezi.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Андроид је блокирао обавештења за апликацију ConnectBot. Подршка за позадинску везу остаје укључена.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Андроид је блокирао обавештења за апликацију AndShell. Подршка за позадинску везу остаје укључена.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Obaveštenja o povezivanju</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Omogućite primanje obaveštenja kako biste videli povezana uređaja i primali upozorenja o zvuku terminala i prekidu veze. Povezani uređaji i dalje mogu da rade u pozadini, čak i bez ove dozvole.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Omogući obaveštenja</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Omogućite obaveštenja za ConnectBot u podešavanjima na Android uređaju kako biste videli povezane hostove i primali upozorenja o zvuku terminala i prekidu veze. Podrška za pozadinsku vezu ostaje omogućena.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Omogućite obaveštenja za AndShell u podešavanjima na Android uređaju kako biste videli povezane hostove i primali upozorenja o zvuku terminala i prekidu veze. Podrška za pozadinsku vezu ostaje omogućena.</string>
 </resources>

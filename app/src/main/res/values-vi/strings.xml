@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Chỉnh sửa màu %1$d</string>
   <string name="dialog_title_reset_all">Khôi phục tất cả màu sắc mặc định?</string>
   <string name="dialog_message_reset_all">Thao tác này sẽ đặt lại tất cả 256 màu về giá trị mặc định. Thao tác này không thể hoàn tác.</string>
-  <string name="app_is_running">ConnectBot đang kết nối</string>
+  <string name="app_is_running">AndShell đang kết nối</string>
   <string name="label_red">Đỏ</string>
   <string name="label_green">Màu xanh lá cây</string>
   <string name="label_blue">Xanh lam</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Nhật ký ứng dụng</string>
   <string name="copy_logs">Sao chép nhật ký</string>
   <string name="logs_copied">Nhật ký đã được sao chép vào bộ nhớ tạm</string>
-  <string name="logs_bug_report_info">Để báo cáo lỗi, hãy sao chép các nhật ký này và mở một báo cáo mới tại https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Để báo cáo lỗi, hãy sao chép các nhật ký này và mở một báo cáo mới tại https://andshell.org/bug</string>
   <string name="no_logs_available">Không có nhật ký nào khả dụng</string>
   <string name="help_section_about">Giới thiệu</string>
   <string name="title_contact">Liên hệ và Hỗ trợ</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Xác thực khi khởi động</string>
   <string name="pref_auth_on_launch_summary">Yêu cầu sử dụng dấu vân tay, khuôn mặt hoặc mã PIN của thiết bị khi mở ứng dụng</string>
   <string name="pref_security_category">Bảo mật</string>
-  <string name="auth_screen_title">ConnectBot đã bị khóa</string>
+  <string name="auth_screen_title">AndShell đã bị khóa</string>
   <string name="auth_screen_unlock_button">Chạm để mở khóa</string>
-  <string name="auth_prompt_title">Mở khóa ConnectBot</string>
+  <string name="auth_prompt_title">Mở khóa AndShell</string>
   <string name="auth_prompt_subtitle">Xác minh danh tính của bạn để tiếp tục</string>
   <string name="pref_language_download" tools:machine_translated="true">Tải gói ngôn ngữ</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Tải xuống không thành công, chạm để thử lại.</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Hiển thị thông báo âm thanh và mất kết nối.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Thông báo về kết nối đã tắt. Hỗ trợ kết nối nền vẫn được bật.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Trên Android, việc hiển thị thông báo về kết nối đang hoạt động được kiểm soát độc lập với các thông báo về kết nối.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android đã chặn thông báo của ConnectBot. Tính năng hỗ trợ kết nối nền vẫn được bật.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android đã chặn thông báo của AndShell. Tính năng hỗ trợ kết nối nền vẫn được bật.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Thông báo kết nối</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Cho phép hiển thị thông báo để xem các máy chủ đã kết nối và nhận thông báo về âm báo và tình trạng mất kết nối. Các kết nối vẫn có thể hoạt động trong nền ngay cả khi không cấp quyền này.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Bật thông báo</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Bật thông báo cho ConnectBot trong phần cài đặt của Android để xem các máy chủ đã kết nối và nhận thông báo về âm báo hiệu và tình trạng mất kết nối. Chức năng hỗ trợ kết nối nền vẫn được bật.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Bật thông báo cho AndShell trong phần cài đặt của Android để xem các máy chủ đã kết nối và nhận thông báo về âm báo hiệu và tình trạng mất kết nối. Chức năng hỗ trợ kết nối nền vẫn được bật.</string>
 </resources>

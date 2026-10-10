@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-ConnectBot is a Gradle Android SSH client project with `oss` and `google` product flavors. The main app lives in `app/`, with Kotlin and Java sources under `app/src/main/java/org/connectbot`. UI code is grouped in `ui/`, data and Room code in `data/`, dependency injection in `di/`, terminal/service code in `service/`, and protocol logic in `transport/`. Native code is in `app/src/main/cpp`, Android resources in `app/src/main/res`, and Room schemas in `app/schemas`. Unit tests are in `app/src/test/kotlin`, instrumentation tests in `app/src/androidTest`, and shared test helpers in `app/src/sharedTest/kotlin`. Translation files are under `translations/` and `app/locale/`.
+AndShell is a Gradle Android SSH client project with `oss` and `google` product flavors. The main app lives in `app/`, with Kotlin and Java sources under `app/src/main/java/org/connectbot`. UI code is grouped in `ui/`, data and Room code in `data/`, dependency injection in `di/`, terminal/service code in `service/`, and protocol logic in `transport/`. Native code is in `app/src/main/cpp`, Android resources in `app/src/main/res`, and Room schemas in `app/schemas`. Unit tests are in `app/src/test/kotlin`, instrumentation tests in `app/src/androidTest`, and shared test helpers in `app/src/sharedTest/kotlin`. Translation files are under `translations/` and `app/locale/`.
 
 ## Build, Test, and Development Commands
 

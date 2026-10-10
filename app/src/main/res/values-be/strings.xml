@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">Рэдагаваць колер %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">Скінуць усе колеры?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">Гэта скіне ўсе 256 колераў да іх пачатковых значэнняў. Гэтае дзеянне нельга адмяніць.</string>
-  <string name="app_is_running" tools:machine_translated="true">ConnectBot працуе</string>
+  <string name="app_is_running" tools:machine_translated="true">AndShell працуе</string>
   <string name="label_red" tools:machine_translated="true">Чырвоны</string>
   <string name="label_green" tools:machine_translated="true">Зялёны</string>
   <string name="label_blue" tools:machine_translated="true">Сіні</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Журналы праграм</string>
   <string name="copy_logs" tools:machine_translated="true">Капіяваць журналы</string>
   <string name="logs_copied" tools:machine_translated="true">Журналы скапіяваны ў буфер абмену</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">Каб паведаміць пра памылку, скапіюйце гэтыя журналы і адкрыйце новае зваротнае запытанне на сайце https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">Каб паведаміць пра памылку, скапіюйце гэтыя журналы і адкрыйце новае зваротнае запытанне на сайце https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Даступныя журналы адсутнічаюць</string>
   <string name="help_section_about" tools:machine_translated="true">Пра праграму</string>
   <string name="title_contact" tools:machine_translated="true">Кантакты і падтрымка</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Аўтэнтыфікацыя пры запуску</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Запытайце пацвярджэнне па адбітках пальцаў, распазнаванне твару або PIN-код прылады пры адкрыцці праграмы.</string>
   <string name="pref_security_category" tools:machine_translated="true">Бяспека</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot заблакаваны</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell заблакаваны</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Націсніце, каб разблакіраваць</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Адкрыць ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Адкрыць AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Пацвердзіце сваю асобу, каб працягнуць</string>
   <string name="auth_banner_title" tools:machine_translated="true">Паведамленне аб аўтэнтыфікацыі ад %1$s.</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Паведамленне аб аўтэнтыфікацыі:</string>
@@ -697,9 +697,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Паказваць гукавы сігнал тэрмінала і паведамленні аб адключэнні злучэння.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Апавяшчэнні аб падключэнні адключаны. Падтрымка фонавага падключэння застаецца ўключанай.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">У Android кіруецца адлюстраванне апавяшчэння аб актыўным злучэнні незалежна ад апавяшчэнняў аб падключэнні.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">У Android заблакаваныя апавяшчэнні для ConnectBot. Падтрымка фону для злучэння застаецца ўключанай.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">У Android заблакаваныя апавяшчэнні для AndShell. Падтрымка фону для злучэння застаецца ўключанай.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Апавяшчэнні аб падключэнні.</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Дазвольце атрыманне апавяшчэнняў, каб бачыць падлучаныя хосты і атрымліваць сігналы аб падключэнні і апавяшчэнні аб адключэнні. Нават без гэтай згоды падключэнні могуць працягваць працаваць у фонавым рэжыме.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Уключыць апавяшчэнні</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Уключыце апавяшчэнні для ConnectBot у наладках Android, каб бачыць спіс падлучаных хостаў і атрымліваць сігналы аб падключэнні і адключэнні. Падтрымка фонавага злучэння застаецца ўключанай.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Уключыце апавяшчэнні для AndShell у наладках Android, каб бачыць спіс падлучаных хостаў і атрымліваць сігналы аб падключэнні і адключэнні. Падтрымка фонавага злучэння застаецца ўключанай.</string>
 </resources>

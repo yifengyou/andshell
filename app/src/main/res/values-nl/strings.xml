@@ -326,7 +326,7 @@
   <string name="dialog_title_edit_color">Kleur bewerken %1$d</string>
   <string name="dialog_title_reset_all">Alle kleuren terugzetten?</string>
   <string name="dialog_message_reset_all">Dit zal alle 256 kleuren terugzetten naar hun standaardwaarden. Deze actie kan niet ongedaan worden gemaakt.</string>
-  <string name="app_is_running">ConnectBot werkt (Connecties zijn actief)</string>
+  <string name="app_is_running">AndShell werkt (Connecties zijn actief)</string>
   <string name="label_red">Rood</string>
   <string name="label_green">Groen</string>
   <string name="label_blue">Blauw</string>
@@ -467,7 +467,7 @@
   <string name="logs_title">Applicatielogbestanden</string>
   <string name="copy_logs">Logbestanden kopiëren</string>
   <string name="logs_copied">Logbestanden naar het klembord gekopieerd</string>
-  <string name="logs_bug_report_info">Om een bug te melden, kopieer deze logbestanden en open een nieuw issue op https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info">Om een bug te melden, kopieer deze logbestanden en open een nieuw issue op https://andshell.org/bug</string>
   <string name="no_logs_available">Er zijn geen logbestanden beschikbaar.</string>
   <string name="help_section_about">Over</string>
   <string name="title_contact">Contact en ondersteuning</string>
@@ -519,9 +519,9 @@
   <string name="pref_auth_on_launch_title">Authenticatie bij het opstarten</string>
   <string name="pref_auth_on_launch_summary">Vraag om een vingerafdruk, gezichtsherkenning of een apparaat-pincode bij het openen van de app.</string>
   <string name="pref_security_category">Beveiliging</string>
-  <string name="auth_screen_title">ConnectBot is vergrendeld</string>
+  <string name="auth_screen_title">AndShell is vergrendeld</string>
   <string name="auth_screen_unlock_button">Tik om te ontgrendelen</string>
-  <string name="auth_prompt_title">Ontgrendel ConnectBot</string>
+  <string name="auth_prompt_title">Ontgrendel AndShell</string>
   <string name="auth_prompt_subtitle">Verifieer uw identiteit om verder te gaan</string>
   <string name="pref_language_download" tools:machine_translated="true">Taalpakket downloaden</string>
   <string name="pref_language_download_failed" tools:machine_translated="true">Het downloaden is mislukt, tik om het opnieuw te proberen.</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Toon meldingen voor het geluidssignaal en verbindingsverlies.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">De meldingen voor verbindingsproblemen zijn uitgeschakeld. De ondersteuning voor verbindingen op de achtergrond blijft ingeschakeld.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">Android regelt de zichtbaarheid van de melding over de actieve verbinding, los van eventuele verbindingswaarschuwingen.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android heeft meldingen voor ConnectBot geblokkeerd. De ondersteuning voor verbindingen op de achtergrond blijft ingeschakeld.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android heeft meldingen voor AndShell geblokkeerd. De ondersteuning voor verbindingen op de achtergrond blijft ingeschakeld.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Meldingen over verbindingen</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Sta meldingen toe om verbonden apparaten te zien en waarschuwingen te ontvangen over geluidssignalen en verbindingsonderbrekingen. Zelfs zonder deze toestemming kunnen verbindingen nog steeds op de achtergrond actief blijven.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Schakel meldingen in</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Schakel meldingen in voor ConnectBot in de Android-instellingen om een overzicht te krijgen van de verbonden hosts en meldingen te ontvangen over terminalsignalen en verbindingsonderbrekingen. De ondersteuning voor verbindingen op de achtergrond blijft ingeschakeld.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Schakel meldingen in voor AndShell in de Android-instellingen om een overzicht te krijgen van de verbonden hosts en meldingen te ontvangen over terminalsignalen en verbindingsonderbrekingen. De ondersteuning voor verbindingen op de achtergrond blijft ingeschakeld.</string>
 </resources>

@@ -26,7 +26,7 @@ abstract class PrepareOssMoshArtifacts : DefaultTask() {
         assetsRoot.deleteRecursively()
         val abis = listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
         abis.forEach { abi ->
-            val url = URI("https://github.com/connectbot/mosh4android/releases/download/$tag/mosh-android-$abi.zip").toURL()
+            val url = URI("https://github.com/andshell/mosh4android/releases/download/$tag/mosh-android-$abi.zip").toURL()
             val connection = url.openConnection().apply {
                 connectTimeout = 15_000
                 readTimeout = 60_000
@@ -115,7 +115,7 @@ appVersioning {
 }
 
 android {
-    namespace = "org.connectbot"
+    namespace = "org.andshell"
     compileSdk =
         libs.versions.compileSdk
             .get()
@@ -124,7 +124,7 @@ android {
     dynamicFeatures += setOf(":mosh")
 
     defaultConfig {
-        applicationId = "org.connectbot"
+        applicationId = "org.andshell"
 
         minSdk =
             libs.versions.minSdk
@@ -142,8 +142,8 @@ android {
             debugSymbolLevel = "full"
         }
 
-        testApplicationId = "org.connectbot.tests"
-        testInstrumentationRunner = "org.connectbot.HiltTestRunner"
+        testApplicationId = "org.andshell.tests"
+        testInstrumentationRunner = "org.andshell.HiltTestRunner"
 
         // The following argument makes the Android Test Orchestrator run its
         // "pm clear" command after each test invocation. This command ensures
@@ -368,8 +368,8 @@ kover {
 
 sonar {
     properties {
-        property("sonar.projectKey", "connectbot_connectbot")
-        property("sonar.organization", "connectbot")
+        property("sonar.projectKey", "andshell_andshell")
+        property("sonar.organization", "andshell")
         property("sonar.host.url", "https://sonarcloud.io")
         property(
             "sonar.exclusions",
@@ -423,7 +423,7 @@ val generateExportSchema by tasks.registering {
     val excludedFields = setOf("last_connect", "host_key_algo")
 
     // Read schema version from Room's @Database annotation.
-    val databaseFile = file("src/main/java/org/connectbot/data/ConnectBotDatabase.kt")
+    val databaseFile = file("src/main/java/org/andshell/data/AndShellDatabase.kt")
     val schemaVersion =
         databaseFile
             .readText()
@@ -432,7 +432,7 @@ val generateExportSchema by tasks.registering {
             ?.get(1)
             ?.toInt()
             ?: error("Could not find @Database version in $databaseFile")
-    val inputFile = file("schemas/org.connectbot.data.ConnectBotDatabase/$schemaVersion.json")
+    val inputFile = file("schemas/org.andshell.data.AndShellDatabase/$schemaVersion.json")
     val outputDir = file("build/generated/exportSchema")
     val outputFile = file("$outputDir/export_schema.json")
 

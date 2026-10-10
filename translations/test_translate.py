@@ -419,7 +419,7 @@ class TestTranslationPipeline:
 
     def test_translatable_false_is_skipped(self, tmp_path):
         src = self._src(tmp_path, resources_xml(
-            '<string name="app_name" translatable="false">ConnectBot</string>'
+            '<string name="app_name" translatable="false">AndShell</string>'
         ))
         tgt = tmp_path / "values-de" / "strings.xml"
         tgt.parent.mkdir(parents=True)

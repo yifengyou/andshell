@@ -328,7 +328,7 @@
   <string name="dialog_title_edit_color" tools:machine_translated="true">Редактиране на цвят %1$d</string>
   <string name="dialog_title_reset_all" tools:machine_translated="true">Възстановяване на всички цветове?</string>
   <string name="dialog_message_reset_all" tools:machine_translated="true">Това ще възстанови всички 256 цвята до техните стандартни стойности. Тази операция не може да бъде отменена.</string>
-  <string name="app_is_running" tools:machine_translated="true">ConnectBot работи</string>
+  <string name="app_is_running" tools:machine_translated="true">AndShell работи</string>
   <string name="label_red" tools:machine_translated="true">Червено</string>
   <string name="label_green" tools:machine_translated="true">Зелено</string>
   <string name="label_blue" tools:machine_translated="true">Синьо</string>
@@ -481,7 +481,7 @@
   <string name="logs_title" tools:machine_translated="true">Приложни логове</string>
   <string name="copy_logs" tools:machine_translated="true">Копиране на логове</string>
   <string name="logs_copied" tools:machine_translated="true">Данните от логовете са копирани в буфера за обмен.</string>
-  <string name="logs_bug_report_info" tools:machine_translated="true">За да съобщите за проблем, копирайте тези записи и отворете нова заявка на адрес: https://connectbot.org/bug</string>
+  <string name="logs_bug_report_info" tools:machine_translated="true">За да съобщите за проблем, копирайте тези записи и отворете нова заявка на адрес: https://andshell.org/bug</string>
   <string name="no_logs_available" tools:machine_translated="true">Няма налични записи</string>
   <string name="help_section_about" tools:machine_translated="true">За програмата</string>
   <string name="title_contact" tools:machine_translated="true">Контакти и поддръжка</string>
@@ -533,9 +533,9 @@
   <string name="pref_auth_on_launch_title" tools:machine_translated="true">Удостоверяване при стартиране.</string>
   <string name="pref_auth_on_launch_summary" tools:machine_translated="true">Изисквайте използването на пръстов отпечатък, разпознаване на лице или ПИН код на устройството при отваряне на приложението.</string>
   <string name="pref_security_category" tools:machine_translated="true">Сигурност</string>
-  <string name="auth_screen_title" tools:machine_translated="true">ConnectBot е заключен</string>
+  <string name="auth_screen_title" tools:machine_translated="true">AndShell е заключен</string>
   <string name="auth_screen_unlock_button" tools:machine_translated="true">Докоснете, за да отключите</string>
-  <string name="auth_prompt_title" tools:machine_translated="true">Отключете ConnectBot</string>
+  <string name="auth_prompt_title" tools:machine_translated="true">Отключете AndShell</string>
   <string name="auth_prompt_subtitle" tools:machine_translated="true">Потвърдете самоличността си, за да продължите.</string>
   <string name="auth_banner_title" tools:machine_translated="true">Съобщение за удостоверяване от %1$s</string>
   <string name="terminal_auth_banner_header" tools:machine_translated="true">[%1$s] Съобщение за удостоверяване:</string>
@@ -689,9 +689,9 @@
   <string name="pref_connection_alerts_summary" tools:machine_translated="true">Показвай звуков сигнал при получаване на съобщение в терминала и предупреждения при прекъсване на връзката.</string>
   <string name="pref_connection_alerts_disabled_summary" tools:machine_translated="true">Известията за връзката са изключени. Поддръжката за връзка във фонов режим остава активирана.</string>
   <string name="pref_service_notification_visibility" tools:machine_translated="true">В Android видимостта на известието за текущата връзка се контролира независимо от известията за състоянието на връзката.</string>
-  <string name="pref_notifications_blocked" tools:machine_translated="true">Android блокира известията за ConnectBot. Поддръжката за връзка във фонов режим остава активирана.</string>
+  <string name="pref_notifications_blocked" tools:machine_translated="true">Android блокира известията за AndShell. Поддръжката за връзка във фонов режим остава активирана.</string>
   <string name="connection_alert_permission_title" tools:machine_translated="true">Известия за връзката</string>
   <string name="connection_alert_permission_message" tools:machine_translated="true">Разрешете известията, за да виждате свързаните хостове и да получавате сигнали за звуков сигнал и прекъсване на връзката. Връзките все пак могат да продължат да работят във фонов режим, дори и без това разрешение.</string>
   <string name="connection_alert_permission_denied_title" tools:machine_translated="true">Активиране на известията</string>
-  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Активирайте известията за ConnectBot в настройките на Android, за да виждате свързаните хостове и да получавате сигнали за звуков сигнал в терминала и за прекъсване на връзката. Поддръжката за връзка във фонов режим остава активирана.</string>
+  <string name="connection_alert_permission_denied_message" tools:machine_translated="true">Активирайте известията за AndShell в настройките на Android, за да виждате свързаните хостове и да получавате сигнали за звуков сигнал в терминала и за прекъсване на връзката. Поддръжката за връзка във фонов режим остава активирана.</string>
 </resources>
