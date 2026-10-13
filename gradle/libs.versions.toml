@@ -23,7 +23,7 @@ navigationCompose = "2.10.2"
 activityCompose = "1.13.0"
 
 sshlib = "2.2.50"
-sshd = "2.14.0"
+sshd = "2.20.0"
 termlib = "0.3.11"
 playServicesBasement = "18.12.0"
 playFeatureDelivery = "2.1.0"
